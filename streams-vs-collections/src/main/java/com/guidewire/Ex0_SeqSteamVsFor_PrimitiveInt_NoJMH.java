@@ -6,7 +6,7 @@ import java.util.Random;
 public class Ex0_SeqSteamVsFor_PrimitiveInt_NoJMH {
 
     private static int[] createArrayOfRandomInts() {
-        int[] randomInts = new int[500000];
+        int[] randomInts = new int[50000];
         Random ran = new Random();
         for (int i = 0; i < randomInts.length; i++) {
             randomInts[i] = ran.nextInt();
@@ -43,7 +43,7 @@ public class Ex0_SeqSteamVsFor_PrimitiveInt_NoJMH {
         long streamTime = finishStream - startStream;
         System.out.println("For loop max = " + maxFor + " and time = " + forTime);
         System.out.println("Stream max = " + maxStram + " and time = " + streamTime);
-        System.out.println("Stream / loop time ratio = " + streamTime / forTime);
+        System.out.println("Stream / loop time ratio = " + (double)streamTime / (double)forTime);
 
     }
 

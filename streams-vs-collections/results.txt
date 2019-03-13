@@ -1,0 +1,2965 @@
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt
+# Parameters: (arraySize = 1000)
+
+# Run progress: 0.00% complete, ETA 04:10:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 212.355 ns/op
+# Warmup Iteration   2: 212.427 ns/op
+# Warmup Iteration   3: 217.380 ns/op
+# Warmup Iteration   4: 216.897 ns/op
+# Warmup Iteration   5: 210.887 ns/op
+Iteration   1: 208.767 ns/op
+Iteration   2: 205.708 ns/op
+Iteration   3: 209.297 ns/op
+Iteration   4: 209.457 ns/op
+Iteration   5: 207.368 ns/op
+
+# Run progress: 0.67% complete, ETA 04:09:38
+# Fork: 1 of 2
+# Warmup Iteration   1: 217.828 ns/op
+# Warmup Iteration   2: 207.574 ns/op
+# Warmup Iteration   3: 208.582 ns/op
+# Warmup Iteration   4: 208.327 ns/op
+# Warmup Iteration   5: 211.552 ns/op
+Iteration   1: 209.147 ns/op
+Iteration   2: 207.922 ns/op
+Iteration   3: 207.711 ns/op
+Iteration   4: 207.622 ns/op
+Iteration   5: 208.497 ns/op
+
+# Run progress: 1.33% complete, ETA 04:07:42
+# Fork: 2 of 2
+# Warmup Iteration   1: 192.652 ns/op
+# Warmup Iteration   2: 194.836 ns/op
+# Warmup Iteration   3: 193.479 ns/op
+# Warmup Iteration   4: 193.822 ns/op
+# Warmup Iteration   5: 194.055 ns/op
+Iteration   1: 194.178 ns/op
+Iteration   2: 193.756 ns/op
+Iteration   3: 194.801 ns/op
+Iteration   4: 194.620 ns/op
+Iteration   5: 193.990 ns/op
+
+
+Result "com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt":
+  201.224 ±(99.9%) 11.112 ns/op [Average]
+  (min, avg, max) = (193.756, 201.224, 209.147), stdev = 7.350
+  CI (99.9%): [190.113, 212.336] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt
+# Parameters: (arraySize = 10000)
+
+# Run progress: 2.00% complete, ETA 04:05:57
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 1881.125 ns/op
+# Warmup Iteration   2: 1884.418 ns/op
+# Warmup Iteration   3: 1881.268 ns/op
+# Warmup Iteration   4: 1877.634 ns/op
+# Warmup Iteration   5: 1925.810 ns/op
+Iteration   1: 1896.128 ns/op
+Iteration   2: 1887.595 ns/op
+Iteration   3: 1886.575 ns/op
+Iteration   4: 1894.624 ns/op
+Iteration   5: 1894.938 ns/op
+
+# Run progress: 2.67% complete, ETA 04:04:15
+# Fork: 1 of 2
+# Warmup Iteration   1: 1889.205 ns/op
+# Warmup Iteration   2: 1904.064 ns/op
+# Warmup Iteration   3: 1878.994 ns/op
+# Warmup Iteration   4: 1882.624 ns/op
+# Warmup Iteration   5: 1868.317 ns/op
+Iteration   1: 1879.691 ns/op
+Iteration   2: 1884.022 ns/op
+Iteration   3: 1885.696 ns/op
+Iteration   4: 1937.772 ns/op
+Iteration   5: 1889.744 ns/op
+
+# Run progress: 3.33% complete, ETA 04:02:34
+# Fork: 2 of 2
+# Warmup Iteration   1: 1856.042 ns/op
+# Warmup Iteration   2: 1854.652 ns/op
+# Warmup Iteration   3: 1844.814 ns/op
+# Warmup Iteration   4: 1836.929 ns/op
+# Warmup Iteration   5: 1867.119 ns/op
+Iteration   1: 1882.903 ns/op
+Iteration   2: 1853.061 ns/op
+Iteration   3: 1845.495 ns/op
+Iteration   4: 1863.571 ns/op
+Iteration   5: 1856.987 ns/op
+
+
+Result "com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt":
+  1877.894 ±(99.9%) 39.557 ns/op [Average]
+  (min, avg, max) = (1845.495, 1877.894, 1937.772), stdev = 26.164
+  CI (99.9%): [1838.338, 1917.451] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt
+# Parameters: (arraySize = 50000)
+
+# Run progress: 4.00% complete, ETA 04:00:52
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 9219.606 ns/op
+# Warmup Iteration   2: 9130.094 ns/op
+# Warmup Iteration   3: 9310.857 ns/op
+# Warmup Iteration   4: 9219.871 ns/op
+# Warmup Iteration   5: 9256.833 ns/op
+Iteration   1: 9322.695 ns/op
+Iteration   2: 9118.111 ns/op
+Iteration   3: 9060.002 ns/op
+Iteration   4: 9258.326 ns/op
+Iteration   5: 9094.380 ns/op
+
+# Run progress: 4.67% complete, ETA 03:59:11
+# Fork: 1 of 2
+# Warmup Iteration   1: 9213.114 ns/op
+# Warmup Iteration   2: 9112.507 ns/op
+# Warmup Iteration   3: 9113.466 ns/op
+# Warmup Iteration   4: 9087.979 ns/op
+# Warmup Iteration   5: 9165.808 ns/op
+Iteration   1: 9168.696 ns/op
+Iteration   2: 9106.503 ns/op
+Iteration   3: 9105.145 ns/op
+Iteration   4: 9211.110 ns/op
+Iteration   5: 9116.211 ns/op
+
+# Run progress: 5.33% complete, ETA 03:57:30
+# Fork: 2 of 2
+# Warmup Iteration   1: 9171.828 ns/op
+# Warmup Iteration   2: 9076.776 ns/op
+# Warmup Iteration   3: 9201.055 ns/op
+# Warmup Iteration   4: 9138.466 ns/op
+# Warmup Iteration   5: 9128.118 ns/op
+Iteration   1: 9415.235 ns/op
+Iteration   2: 9138.200 ns/op
+Iteration   3: 9183.601 ns/op
+Iteration   4: 9218.491 ns/op
+Iteration   5: 9210.630 ns/op
+
+
+Result "com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt":
+  9187.382 ±(99.9%) 138.142 ns/op [Average]
+  (min, avg, max) = (9105.145, 9187.382, 9415.235), stdev = 91.372
+  CI (99.9%): [9049.240, 9325.524] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt
+# Parameters: (arraySize = 200000)
+
+# Run progress: 6.00% complete, ETA 03:55:49
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 37025.630 ns/op
+# Warmup Iteration   2: 37077.880 ns/op
+# Warmup Iteration   3: 37261.190 ns/op
+# Warmup Iteration   4: 36970.403 ns/op
+# Warmup Iteration   5: 37304.338 ns/op
+Iteration   1: 36745.935 ns/op
+Iteration   2: 37491.045 ns/op
+Iteration   3: 37265.330 ns/op
+Iteration   4: 37067.169 ns/op
+Iteration   5: 36996.765 ns/op
+
+# Run progress: 6.67% complete, ETA 03:54:09
+# Fork: 1 of 2
+# Warmup Iteration   1: 37573.047 ns/op
+# Warmup Iteration   2: 37041.302 ns/op
+# Warmup Iteration   3: 37412.593 ns/op
+# Warmup Iteration   4: 37582.926 ns/op
+# Warmup Iteration   5: 36978.991 ns/op
+Iteration   1: 37464.903 ns/op
+Iteration   2: 37514.528 ns/op
+Iteration   3: 37150.866 ns/op
+Iteration   4: 37083.375 ns/op
+Iteration   5: 38048.583 ns/op
+
+# Run progress: 7.33% complete, ETA 03:52:28
+# Fork: 2 of 2
+# Warmup Iteration   1: 36996.842 ns/op
+# Warmup Iteration   2: 37251.731 ns/op
+# Warmup Iteration   3: 37048.935 ns/op
+# Warmup Iteration   4: 37130.772 ns/op
+# Warmup Iteration   5: 37312.595 ns/op
+Iteration   1: 37293.703 ns/op
+Iteration   2: 37471.586 ns/op
+Iteration   3: 36954.845 ns/op
+Iteration   4: 37005.069 ns/op
+Iteration   5: 37061.387 ns/op
+
+
+Result "com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt":
+  37304.884 ±(99.9%) 502.705 ns/op [Average]
+  (min, avg, max) = (36954.845, 37304.884, 38048.583), stdev = 332.508
+  CI (99.9%): [36802.180, 37807.589] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt
+# Parameters: (arraySize = 1000)
+
+# Run progress: 8.00% complete, ETA 03:50:48
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 1646.431 ns/op
+# Warmup Iteration   2: 1688.400 ns/op
+# Warmup Iteration   3: 1696.432 ns/op
+# Warmup Iteration   4: 1674.770 ns/op
+# Warmup Iteration   5: 1657.029 ns/op
+Iteration   1: 1654.396 ns/op
+Iteration   2: 1686.855 ns/op
+Iteration   3: 1667.875 ns/op
+Iteration   4: 1657.579 ns/op
+Iteration   5: 1677.546 ns/op
+
+# Run progress: 8.67% complete, ETA 03:49:08
+# Fork: 1 of 2
+# Warmup Iteration   1: 1674.628 ns/op
+# Warmup Iteration   2: 1674.988 ns/op
+# Warmup Iteration   3: 1687.086 ns/op
+# Warmup Iteration   4: 1663.454 ns/op
+# Warmup Iteration   5: 1659.353 ns/op
+Iteration   1: 1660.535 ns/op
+Iteration   2: 1701.206 ns/op
+Iteration   3: 1657.590 ns/op
+Iteration   4: 1701.339 ns/op
+Iteration   5: 1651.829 ns/op
+
+# Run progress: 9.33% complete, ETA 03:47:28
+# Fork: 2 of 2
+# Warmup Iteration   1: 1654.673 ns/op
+# Warmup Iteration   2: 1693.087 ns/op
+# Warmup Iteration   3: 1706.256 ns/op
+# Warmup Iteration   4: 1683.023 ns/op
+# Warmup Iteration   5: 1665.699 ns/op
+Iteration   1: 1661.290 ns/op
+Iteration   2: 1661.992 ns/op
+Iteration   3: 1658.383 ns/op
+Iteration   4: 1684.057 ns/op
+Iteration   5: 1680.966 ns/op
+
+
+Result "com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt":
+  1671.919 ±(99.9%) 27.994 ns/op [Average]
+  (min, avg, max) = (1651.829, 1671.919, 1701.339), stdev = 18.516
+  CI (99.9%): [1643.925, 1699.913] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt
+# Parameters: (arraySize = 10000)
+
+# Run progress: 10.00% complete, ETA 03:45:47
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 14402.099 ns/op
+# Warmup Iteration   2: 15134.698 ns/op
+# Warmup Iteration   3: 16609.114 ns/op
+# Warmup Iteration   4: 16516.303 ns/op
+# Warmup Iteration   5: 16577.406 ns/op
+Iteration   1: 16474.816 ns/op
+Iteration   2: 16786.627 ns/op
+Iteration   3: 16738.686 ns/op
+Iteration   4: 16583.697 ns/op
+Iteration   5: 16652.354 ns/op
+
+# Run progress: 10.67% complete, ETA 03:44:07
+# Fork: 1 of 2
+# Warmup Iteration   1: 14425.237 ns/op
+# Warmup Iteration   2: 15066.968 ns/op
+# Warmup Iteration   3: 16460.712 ns/op
+# Warmup Iteration   4: 17036.453 ns/op
+# Warmup Iteration   5: 16597.079 ns/op
+Iteration   1: 16588.661 ns/op
+Iteration   2: 16578.459 ns/op
+Iteration   3: 16506.873 ns/op
+Iteration   4: 16714.818 ns/op
+Iteration   5: 16569.644 ns/op
+
+# Run progress: 11.33% complete, ETA 03:42:27
+# Fork: 2 of 2
+# Warmup Iteration   1: 14671.353 ns/op
+# Warmup Iteration   2: 15093.703 ns/op
+# Warmup Iteration   3: 16524.010 ns/op
+# Warmup Iteration   4: 16494.502 ns/op
+# Warmup Iteration   5: 16536.455 ns/op
+Iteration   1: 16584.251 ns/op
+Iteration   2: 16642.130 ns/op
+Iteration   3: 16699.705 ns/op
+Iteration   4: 16595.692 ns/op
+Iteration   5: 16571.286 ns/op
+
+
+Result "com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt":
+  16605.152 ±(99.9%) 95.501 ns/op [Average]
+  (min, avg, max) = (16506.873, 16605.152, 16714.818), stdev = 63.168
+  CI (99.9%): [16509.651, 16700.653] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt
+# Parameters: (arraySize = 50000)
+
+# Run progress: 12.00% complete, ETA 03:40:47
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 49447.029 ns/op
+# Warmup Iteration   2: 60444.407 ns/op
+# Warmup Iteration   3: 82449.321 ns/op
+# Warmup Iteration   4: 83685.688 ns/op
+# Warmup Iteration   5: 83242.555 ns/op
+Iteration   1: 82388.249 ns/op
+Iteration   2: 82469.646 ns/op
+Iteration   3: 82680.526 ns/op
+Iteration   4: 81860.046 ns/op
+Iteration   5: 82442.738 ns/op
+
+# Run progress: 12.67% complete, ETA 03:39:06
+# Fork: 1 of 2
+# Warmup Iteration   1: 49948.374 ns/op
+# Warmup Iteration   2: 60762.180 ns/op
+# Warmup Iteration   3: 82873.077 ns/op
+# Warmup Iteration   4: 82504.745 ns/op
+# Warmup Iteration   5: 82369.997 ns/op
+Iteration   1: 82238.047 ns/op
+Iteration   2: 82613.223 ns/op
+Iteration   3: 83937.756 ns/op
+Iteration   4: 83051.272 ns/op
+Iteration   5: 82492.206 ns/op
+
+# Run progress: 13.33% complete, ETA 03:37:26
+# Fork: 2 of 2
+# Warmup Iteration   1: 49480.771 ns/op
+# Warmup Iteration   2: 60567.046 ns/op
+# Warmup Iteration   3: 82316.963 ns/op
+# Warmup Iteration   4: 83394.597 ns/op
+# Warmup Iteration   5: 82687.275 ns/op
+Iteration   1: 82662.051 ns/op
+Iteration   2: 82075.557 ns/op
+Iteration   3: 82854.683 ns/op
+Iteration   4: 82422.164 ns/op
+Iteration   5: 82330.421 ns/op
+
+
+Result "com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt":
+  82667.738 ±(99.9%) 802.885 ns/op [Average]
+  (min, avg, max) = (82075.557, 82667.738, 83937.756), stdev = 531.059
+  CI (99.9%): [81864.853, 83470.623] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt
+# Parameters: (arraySize = 200000)
+
+# Run progress: 14.00% complete, ETA 03:35:45
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 95514.319 ns/op
+# Warmup Iteration   2: 284427.657 ns/op
+# Warmup Iteration   3: 328913.954 ns/op
+# Warmup Iteration   4: 327062.677 ns/op
+# Warmup Iteration   5: 326882.476 ns/op
+Iteration   1: 327733.875 ns/op
+Iteration   2: 327524.261 ns/op
+Iteration   3: 331960.043 ns/op
+Iteration   4: 329911.103 ns/op
+Iteration   5: 328435.101 ns/op
+
+# Run progress: 14.67% complete, ETA 03:34:05
+# Fork: 1 of 2
+# Warmup Iteration   1: 95662.205 ns/op
+# Warmup Iteration   2: 281540.612 ns/op
+# Warmup Iteration   3: 326082.000 ns/op
+# Warmup Iteration   4: 327431.231 ns/op
+# Warmup Iteration   5: 331643.451 ns/op
+Iteration   1: 327389.349 ns/op
+Iteration   2: 326765.287 ns/op
+Iteration   3: 325449.788 ns/op
+Iteration   4: 329643.968 ns/op
+Iteration   5: 328011.603 ns/op
+
+# Run progress: 15.33% complete, ETA 03:32:24
+# Fork: 2 of 2
+# Warmup Iteration   1: 95457.821 ns/op
+# Warmup Iteration   2: 285711.655 ns/op
+# Warmup Iteration   3: 326937.271 ns/op
+# Warmup Iteration   4: 329011.340 ns/op
+# Warmup Iteration   5: 326230.838 ns/op
+Iteration   1: 327132.514 ns/op
+Iteration   2: 326708.925 ns/op
+Iteration   3: 331895.501 ns/op
+Iteration   4: 329498.213 ns/op
+Iteration   5: 327315.709 ns/op
+
+
+Result "com.guidewire.Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt":
+  327981.086 ±(99.9%) 2824.266 ns/op [Average]
+  (min, avg, max) = (325449.788, 327981.086, 331895.501), stdev = 1868.077
+  CI (99.9%): [325156.820, 330805.352] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger
+# Parameters: (arraySize = 1000)
+
+# Run progress: 16.00% complete, ETA 03:30:44
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 725.279 ns/op
+# Warmup Iteration   2: 607.410 ns/op
+# Warmup Iteration   3: 607.905 ns/op
+# Warmup Iteration   4: 608.110 ns/op
+# Warmup Iteration   5: 615.604 ns/op
+Iteration   1: 610.854 ns/op
+Iteration   2: 605.632 ns/op
+Iteration   3: 606.827 ns/op
+Iteration   4: 604.748 ns/op
+Iteration   5: 609.310 ns/op
+
+# Run progress: 16.67% complete, ETA 03:29:03
+# Fork: 1 of 2
+# Warmup Iteration   1: 623.447 ns/op
+# Warmup Iteration   2: 621.100 ns/op
+# Warmup Iteration   3: 620.890 ns/op
+# Warmup Iteration   4: 620.738 ns/op
+# Warmup Iteration   5: 618.856 ns/op
+Iteration   1: 621.086 ns/op
+Iteration   2: 619.322 ns/op
+Iteration   3: 619.907 ns/op
+Iteration   4: 630.516 ns/op
+Iteration   5: 621.936 ns/op
+
+# Run progress: 17.33% complete, ETA 03:27:23
+# Fork: 2 of 2
+# Warmup Iteration   1: 618.743 ns/op
+# Warmup Iteration   2: 625.928 ns/op
+# Warmup Iteration   3: 629.203 ns/op
+# Warmup Iteration   4: 616.261 ns/op
+# Warmup Iteration   5: 624.949 ns/op
+Iteration   1: 624.416 ns/op
+Iteration   2: 617.120 ns/op
+Iteration   3: 617.632 ns/op
+Iteration   4: 616.675 ns/op
+Iteration   5: 616.526 ns/op
+
+
+Result "com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger":
+  620.514 ±(99.9%) 6.568 ns/op [Average]
+  (min, avg, max) = (616.526, 620.514, 630.516), stdev = 4.345
+  CI (99.9%): [613.945, 627.082] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger
+# Parameters: (arraySize = 10000)
+
+# Run progress: 18.00% complete, ETA 03:25:42
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 6162.952 ns/op
+# Warmup Iteration   2: 6273.726 ns/op
+# Warmup Iteration   3: 6830.639 ns/op
+# Warmup Iteration   4: 6773.302 ns/op
+# Warmup Iteration   5: 6812.942 ns/op
+Iteration   1: 6790.169 ns/op
+Iteration   2: 6817.712 ns/op
+Iteration   3: 6822.719 ns/op
+Iteration   4: 6818.380 ns/op
+Iteration   5: 6863.812 ns/op
+
+# Run progress: 18.67% complete, ETA 03:24:02
+# Fork: 1 of 2
+# Warmup Iteration   1: 6271.401 ns/op
+# Warmup Iteration   2: 6185.381 ns/op
+# Warmup Iteration   3: 6797.290 ns/op
+# Warmup Iteration   4: 6783.390 ns/op
+# Warmup Iteration   5: 6822.984 ns/op
+Iteration   1: 6833.453 ns/op
+Iteration   2: 6772.059 ns/op
+Iteration   3: 6777.864 ns/op
+Iteration   4: 6850.864 ns/op
+Iteration   5: 6819.539 ns/op
+
+# Run progress: 19.33% complete, ETA 03:22:22
+# Fork: 2 of 2
+# Warmup Iteration   1: 6214.930 ns/op
+# Warmup Iteration   2: 6277.563 ns/op
+# Warmup Iteration   3: 6837.691 ns/op
+# Warmup Iteration   4: 6795.572 ns/op
+# Warmup Iteration   5: 6853.851 ns/op
+Iteration   1: 6962.692 ns/op
+Iteration   2: 7049.739 ns/op
+Iteration   3: 6970.325 ns/op
+Iteration   4: 6954.373 ns/op
+Iteration   5: 6871.304 ns/op
+
+
+Result "com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger":
+  6886.221 ±(99.9%) 140.549 ns/op [Average]
+  (min, avg, max) = (6772.059, 6886.221, 7049.739), stdev = 92.965
+  CI (99.9%): [6745.672, 7026.771] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger
+# Parameters: (arraySize = 50000)
+
+# Run progress: 20.00% complete, ETA 03:20:41
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 34215.043 ns/op
+# Warmup Iteration   2: 33025.684 ns/op
+# Warmup Iteration   3: 35527.621 ns/op
+# Warmup Iteration   4: 35784.559 ns/op
+# Warmup Iteration   5: 35921.471 ns/op
+Iteration   1: 37085.656 ns/op
+Iteration   2: 36321.426 ns/op
+Iteration   3: 36720.885 ns/op
+Iteration   4: 37200.888 ns/op
+Iteration   5: 36606.384 ns/op
+
+# Run progress: 20.67% complete, ETA 03:19:01
+# Fork: 1 of 2
+# Warmup Iteration   1: 35096.690 ns/op
+# Warmup Iteration   2: 32740.138 ns/op
+# Warmup Iteration   3: 37502.171 ns/op
+# Warmup Iteration   4: 37131.520 ns/op
+# Warmup Iteration   5: 36862.489 ns/op
+Iteration   1: 37086.338 ns/op
+Iteration   2: 36950.173 ns/op
+Iteration   3: 37193.252 ns/op
+Iteration   4: 36973.332 ns/op
+Iteration   5: 37333.865 ns/op
+
+# Run progress: 21.33% complete, ETA 03:17:20
+# Fork: 2 of 2
+# Warmup Iteration   1: 34868.711 ns/op
+# Warmup Iteration   2: 32802.572 ns/op
+# Warmup Iteration   3: 37187.187 ns/op
+# Warmup Iteration   4: 37313.595 ns/op
+# Warmup Iteration   5: 37515.585 ns/op
+Iteration   1: 37252.624 ns/op
+Iteration   2: 37936.632 ns/op
+Iteration   3: 37411.881 ns/op
+Iteration   4: 37398.217 ns/op
+Iteration   5: 37363.285 ns/op
+
+
+Result "com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger":
+  37289.960 ±(99.9%) 427.615 ns/op [Average]
+  (min, avg, max) = (36950.173, 37289.960, 37936.632), stdev = 282.841
+  CI (99.9%): [36862.345, 37717.575] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger
+# Parameters: (arraySize = 200000)
+
+# Run progress: 22.00% complete, ETA 03:15:40
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 159762.504 ns/op
+# Warmup Iteration   2: 150447.809 ns/op
+# Warmup Iteration   3: 142836.808 ns/op
+# Warmup Iteration   4: 141446.530 ns/op
+# Warmup Iteration   5: 141853.958 ns/op
+Iteration   1: 139149.482 ns/op
+Iteration   2: 142264.679 ns/op
+Iteration   3: 140291.232 ns/op
+Iteration   4: 142400.703 ns/op
+Iteration   5: 144902.052 ns/op
+
+# Run progress: 22.67% complete, ETA 03:14:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 158780.514 ns/op
+# Warmup Iteration   2: 148622.637 ns/op
+# Warmup Iteration   3: 150889.401 ns/op
+# Warmup Iteration   4: 149046.588 ns/op
+# Warmup Iteration   5: 147735.963 ns/op
+Iteration   1: 150324.749 ns/op
+Iteration   2: 152959.456 ns/op
+Iteration   3: 149000.445 ns/op
+Iteration   4: 150988.435 ns/op
+Iteration   5: 148636.069 ns/op
+
+# Run progress: 23.33% complete, ETA 03:12:19
+# Fork: 2 of 2
+# Warmup Iteration   1: 159083.219 ns/op
+# Warmup Iteration   2: 151120.035 ns/op
+# Warmup Iteration   3: 152140.449 ns/op
+# Warmup Iteration   4: 153610.404 ns/op
+# Warmup Iteration   5: 150023.455 ns/op
+Iteration   1: 150990.438 ns/op
+Iteration   2: 150978.690 ns/op
+Iteration   3: 151476.024 ns/op
+Iteration   4: 148480.624 ns/op
+Iteration   5: 150570.420 ns/op
+
+
+Result "com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger":
+  150440.535 ±(99.9%) 2108.840 ns/op [Average]
+  (min, avg, max) = (148480.624, 150440.535, 152959.456), stdev = 1394.867
+  CI (99.9%): [148331.695, 152549.375] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger
+# Parameters: (arraySize = 1000)
+
+# Run progress: 24.00% complete, ETA 03:10:40
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 3309.175 ns/op
+# Warmup Iteration   2: 3268.648 ns/op
+# Warmup Iteration   3: 3314.121 ns/op
+# Warmup Iteration   4: 3242.280 ns/op
+# Warmup Iteration   5: 3227.883 ns/op
+Iteration   1: 3222.483 ns/op
+Iteration   2: 3256.290 ns/op
+Iteration   3: 3205.847 ns/op
+Iteration   4: 3206.662 ns/op
+Iteration   5: 3260.794 ns/op
+
+# Run progress: 24.67% complete, ETA 03:08:59
+# Fork: 1 of 2
+# Warmup Iteration   1: 3266.864 ns/op
+# Warmup Iteration   2: 3235.947 ns/op
+# Warmup Iteration   3: 3360.887 ns/op
+# Warmup Iteration   4: 3250.093 ns/op
+# Warmup Iteration   5: 3190.461 ns/op
+Iteration   1: 3193.947 ns/op
+Iteration   2: 3196.450 ns/op
+Iteration   3: 3186.317 ns/op
+Iteration   4: 3202.033 ns/op
+Iteration   5: 3173.483 ns/op
+
+# Run progress: 25.33% complete, ETA 03:07:19
+# Fork: 2 of 2
+# Warmup Iteration   1: 3254.428 ns/op
+# Warmup Iteration   2: 3241.201 ns/op
+# Warmup Iteration   3: 3257.020 ns/op
+# Warmup Iteration   4: 3178.236 ns/op
+# Warmup Iteration   5: 3184.685 ns/op
+Iteration   1: 3195.516 ns/op
+Iteration   2: 3213.953 ns/op
+Iteration   3: 3216.742 ns/op
+Iteration   4: 3221.048 ns/op
+Iteration   5: 3191.467 ns/op
+
+
+Result "com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger":
+  3199.096 ±(99.9%) 22.234 ns/op [Average]
+  (min, avg, max) = (3173.483, 3199.096, 3221.048), stdev = 14.706
+  CI (99.9%): [3176.862, 3221.329] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger
+# Parameters: (arraySize = 10000)
+
+# Run progress: 26.00% complete, ETA 03:05:39
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 26979.346 ns/op
+# Warmup Iteration   2: 26724.586 ns/op
+# Warmup Iteration   3: 29134.092 ns/op
+# Warmup Iteration   4: 29853.093 ns/op
+# Warmup Iteration   5: 29715.616 ns/op
+Iteration   1: 29587.756 ns/op
+Iteration   2: 29689.457 ns/op
+Iteration   3: 29582.686 ns/op
+Iteration   4: 29625.447 ns/op
+Iteration   5: 29775.929 ns/op
+
+# Run progress: 26.67% complete, ETA 03:03:58
+# Fork: 1 of 2
+# Warmup Iteration   1: 27605.721 ns/op
+# Warmup Iteration   2: 26707.322 ns/op
+# Warmup Iteration   3: 29237.779 ns/op
+# Warmup Iteration   4: 29659.132 ns/op
+# Warmup Iteration   5: 29619.536 ns/op
+Iteration   1: 29764.077 ns/op
+Iteration   2: 29726.797 ns/op
+Iteration   3: 29769.166 ns/op
+Iteration   4: 29881.451 ns/op
+Iteration   5: 29680.662 ns/op
+
+# Run progress: 27.33% complete, ETA 03:02:18
+# Fork: 2 of 2
+# Warmup Iteration   1: 26827.038 ns/op
+# Warmup Iteration   2: 26929.427 ns/op
+# Warmup Iteration   3: 29081.263 ns/op
+# Warmup Iteration   4: 29688.183 ns/op
+# Warmup Iteration   5: 29459.921 ns/op
+Iteration   1: 29381.278 ns/op
+Iteration   2: 29522.499 ns/op
+Iteration   3: 29550.675 ns/op
+Iteration   4: 29346.785 ns/op
+Iteration   5: 29354.478 ns/op
+
+
+Result "com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger":
+  29597.787 ±(99.9%) 292.972 ns/op [Average]
+  (min, avg, max) = (29346.785, 29597.787, 29881.451), stdev = 193.783
+  CI (99.9%): [29304.815, 29890.759] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger
+# Parameters: (arraySize = 50000)
+
+# Run progress: 28.00% complete, ETA 03:00:38
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 165289.574 ns/op
+# Warmup Iteration   2: 107318.239 ns/op
+# Warmup Iteration   3: 143668.369 ns/op
+# Warmup Iteration   4: 106348.274 ns/op
+# Warmup Iteration   5: 143739.402 ns/op
+Iteration   1: 143643.219 ns/op
+Iteration   2: 144049.292 ns/op
+Iteration   3: 144897.252 ns/op
+Iteration   4: 143103.945 ns/op
+Iteration   5: 144456.052 ns/op
+
+# Run progress: 28.67% complete, ETA 02:58:57
+# Fork: 1 of 2
+# Warmup Iteration   1: 164608.489 ns/op
+# Warmup Iteration   2: 107293.014 ns/op
+# Warmup Iteration   3: 143425.960 ns/op
+# Warmup Iteration   4: 106659.527 ns/op
+# Warmup Iteration   5: 144937.191 ns/op
+Iteration   1: 143673.790 ns/op
+Iteration   2: 143491.170 ns/op
+Iteration   3: 143621.854 ns/op
+Iteration   4: 144225.834 ns/op
+Iteration   5: 143384.542 ns/op
+
+# Run progress: 29.33% complete, ETA 02:57:17
+# Fork: 2 of 2
+# Warmup Iteration   1: 165326.752 ns/op
+# Warmup Iteration   2: 107463.054 ns/op
+# Warmup Iteration   3: 143523.896 ns/op
+# Warmup Iteration   4: 106093.231 ns/op
+# Warmup Iteration   5: 143549.272 ns/op
+Iteration   1: 143688.151 ns/op
+Iteration   2: 144432.439 ns/op
+Iteration   3: 144778.244 ns/op
+Iteration   4: 144460.704 ns/op
+Iteration   5: 143233.538 ns/op
+
+
+Result "com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger":
+  143899.027 ±(99.9%) 800.916 ns/op [Average]
+  (min, avg, max) = (143233.538, 143899.027, 144778.244), stdev = 529.757
+  CI (99.9%): [143098.110, 144699.943] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger
+# Parameters: (arraySize = 200000)
+
+# Run progress: 30.00% complete, ETA 02:55:36
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 638199.793 ns/op
+# Warmup Iteration   2: 701106.445 ns/op
+# Warmup Iteration   3: 699502.204 ns/op
+# Warmup Iteration   4: 706203.522 ns/op
+# Warmup Iteration   5: 375939.690 ns/op
+Iteration   1: 360069.607 ns/op
+Iteration   2: 549676.685 ns/op
+Iteration   3: 549726.311 ns/op
+Iteration   4: 550664.452 ns/op
+Iteration   5: 555619.413 ns/op
+
+# Run progress: 30.67% complete, ETA 02:53:56
+# Fork: 1 of 2
+# Warmup Iteration   1: 637622.974 ns/op
+# Warmup Iteration   2: 703720.329 ns/op
+# Warmup Iteration   3: 699568.599 ns/op
+# Warmup Iteration   4: 696894.998 ns/op
+# Warmup Iteration   5: 364299.056 ns/op
+Iteration   1: 366378.714 ns/op
+Iteration   2: 572456.691 ns/op
+Iteration   3: 575264.390 ns/op
+Iteration   4: 580151.313 ns/op
+Iteration   5: 574193.345 ns/op
+
+# Run progress: 31.33% complete, ETA 02:52:16
+# Fork: 2 of 2
+# Warmup Iteration   1: 635390.124 ns/op
+# Warmup Iteration   2: 699281.194 ns/op
+# Warmup Iteration   3: 698810.121 ns/op
+# Warmup Iteration   4: 697199.013 ns/op
+# Warmup Iteration   5: 364030.583 ns/op
+Iteration   1: 367532.623 ns/op
+Iteration   2: 579763.217 ns/op
+Iteration   3: 575074.193 ns/op
+Iteration   4: 570880.102 ns/op
+Iteration   5: 573885.923 ns/op
+
+
+Result "com.guidewire.Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger":
+  533558.051 ±(99.9%) 132823.580 ns/op [Average]
+  (min, avg, max) = (366378.714, 533558.051, 580151.313), stdev = 87854.574
+  CI (99.9%): [400734.471, 666381.631] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU
+# Parameters: (arraySize = 1000)
+
+# Run progress: 32.00% complete, ETA 02:50:35
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 85554.984 ns/op
+# Warmup Iteration   2: 86299.145 ns/op
+# Warmup Iteration   3: 85258.094 ns/op
+# Warmup Iteration   4: 85397.825 ns/op
+# Warmup Iteration   5: 85343.411 ns/op
+Iteration   1: 85045.626 ns/op
+Iteration   2: 84944.666 ns/op
+Iteration   3: 84965.490 ns/op
+Iteration   4: 85809.937 ns/op
+Iteration   5: 85504.562 ns/op
+
+# Run progress: 32.67% complete, ETA 02:48:55
+# Fork: 1 of 2
+# Warmup Iteration   1: 85481.711 ns/op
+# Warmup Iteration   2: 85484.053 ns/op
+# Warmup Iteration   3: 85498.959 ns/op
+# Warmup Iteration   4: 85365.714 ns/op
+# Warmup Iteration   5: 85586.533 ns/op
+Iteration   1: 86249.369 ns/op
+Iteration   2: 85193.841 ns/op
+Iteration   3: 85669.683 ns/op
+Iteration   4: 85766.118 ns/op
+Iteration   5: 85260.491 ns/op
+
+# Run progress: 33.33% complete, ETA 02:47:15
+# Fork: 2 of 2
+# Warmup Iteration   1: 85380.827 ns/op
+# Warmup Iteration   2: 85836.410 ns/op
+# Warmup Iteration   3: 85569.825 ns/op
+# Warmup Iteration   4: 84992.870 ns/op
+# Warmup Iteration   5: 85180.493 ns/op
+Iteration   1: 85213.143 ns/op
+Iteration   2: 85521.143 ns/op
+Iteration   3: 85015.106 ns/op
+Iteration   4: 85346.779 ns/op
+Iteration   5: 85470.911 ns/op
+
+
+Result "com.guidewire.Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU":
+  85470.658 ±(99.9%) 539.449 ns/op [Average]
+  (min, avg, max) = (85015.106, 85470.658, 86249.369), stdev = 356.812
+  CI (99.9%): [84931.210, 86010.107] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU
+# Parameters: (arraySize = 5000)
+
+# Run progress: 34.00% complete, ETA 02:45:34
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 438078.227 ns/op
+# Warmup Iteration   2: 436308.927 ns/op
+# Warmup Iteration   3: 436738.215 ns/op
+# Warmup Iteration   4: 437744.455 ns/op
+# Warmup Iteration   5: 437325.979 ns/op
+Iteration   1: 440869.900 ns/op
+Iteration   2: 436855.708 ns/op
+Iteration   3: 436145.381 ns/op
+Iteration   4: 437080.707 ns/op
+Iteration   5: 437663.250 ns/op
+
+# Run progress: 34.67% complete, ETA 02:43:54
+# Fork: 1 of 2
+# Warmup Iteration   1: 437300.788 ns/op
+# Warmup Iteration   2: 438210.613 ns/op
+# Warmup Iteration   3: 440206.578 ns/op
+# Warmup Iteration   4: 435536.228 ns/op
+# Warmup Iteration   5: 437073.345 ns/op
+Iteration   1: 436993.440 ns/op
+Iteration   2: 436785.850 ns/op
+Iteration   3: 435226.086 ns/op
+Iteration   4: 440457.001 ns/op
+Iteration   5: 439601.212 ns/op
+
+# Run progress: 35.33% complete, ETA 02:42:13
+# Fork: 2 of 2
+# Warmup Iteration   1: 438072.042 ns/op
+# Warmup Iteration   2: 437140.751 ns/op
+# Warmup Iteration   3: 437580.939 ns/op
+# Warmup Iteration   4: 436971.125 ns/op
+# Warmup Iteration   5: 437815.916 ns/op
+Iteration   1: 437151.004 ns/op
+Iteration   2: 440597.895 ns/op
+Iteration   3: 436431.332 ns/op
+Iteration   4: 436050.168 ns/op
+Iteration   5: 436120.283 ns/op
+
+
+Result "com.guidewire.Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU":
+  437541.427 ±(99.9%) 2936.167 ns/op [Average]
+  (min, avg, max) = (435226.086, 437541.427, 440597.895), stdev = 1942.093
+  CI (99.9%): [434605.260, 440477.594] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU
+# Parameters: (arraySize = 10000)
+
+# Run progress: 36.00% complete, ETA 02:40:33
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 881198.345 ns/op
+# Warmup Iteration   2: 877324.012 ns/op
+# Warmup Iteration   3: 888448.174 ns/op
+# Warmup Iteration   4: 878440.184 ns/op
+# Warmup Iteration   5: 881006.855 ns/op
+Iteration   1: 877153.931 ns/op
+Iteration   2: 880147.433 ns/op
+Iteration   3: 878822.792 ns/op
+Iteration   4: 881262.335 ns/op
+Iteration   5: 890216.573 ns/op
+
+# Run progress: 36.67% complete, ETA 02:38:53
+# Fork: 1 of 2
+# Warmup Iteration   1: 877553.013 ns/op
+# Warmup Iteration   2: 884562.890 ns/op
+# Warmup Iteration   3: 878421.414 ns/op
+# Warmup Iteration   4: 875837.102 ns/op
+# Warmup Iteration   5: 879457.370 ns/op
+Iteration   1: 881392.858 ns/op
+Iteration   2: 884939.386 ns/op
+Iteration   3: 879002.955 ns/op
+Iteration   4: 885065.058 ns/op
+Iteration   5: 878918.183 ns/op
+
+# Run progress: 37.33% complete, ETA 02:37:12
+# Fork: 2 of 2
+# Warmup Iteration   1: 879729.650 ns/op
+# Warmup Iteration   2: 878207.545 ns/op
+# Warmup Iteration   3: 883308.194 ns/op
+# Warmup Iteration   4: 884698.328 ns/op
+# Warmup Iteration   5: 883292.765 ns/op
+Iteration   1: 878237.323 ns/op
+Iteration   2: 883140.232 ns/op
+Iteration   3: 879614.417 ns/op
+Iteration   4: 879367.035 ns/op
+Iteration   5: 899375.689 ns/op
+
+
+Result "com.guidewire.Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU":
+  882905.314 ±(99.9%) 9544.320 ns/op [Average]
+  (min, avg, max) = (878237.323, 882905.314, 899375.689), stdev = 6312.977
+  CI (99.9%): [873360.994, 892449.633] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 1000)
+
+# Run progress: 38.00% complete, ETA 02:35:32
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 98276.458 ns/op
+# Warmup Iteration   2: 93071.797 ns/op
+# Warmup Iteration   3: 93092.043 ns/op
+# Warmup Iteration   4: 93809.332 ns/op
+# Warmup Iteration   5: 95441.667 ns/op
+Iteration   1: 93006.555 ns/op
+Iteration   2: 93560.527 ns/op
+Iteration   3: 92311.910 ns/op
+Iteration   4: 92933.221 ns/op
+Iteration   5: 93480.441 ns/op
+
+# Run progress: 38.67% complete, ETA 02:33:51
+# Fork: 1 of 2
+# Warmup Iteration   1: 95318.765 ns/op
+# Warmup Iteration   2: 86907.833 ns/op
+# Warmup Iteration   3: 88197.337 ns/op
+# Warmup Iteration   4: 88415.555 ns/op
+# Warmup Iteration   5: 88471.059 ns/op
+Iteration   1: 86554.953 ns/op
+Iteration   2: 88263.530 ns/op
+Iteration   3: 87477.732 ns/op
+Iteration   4: 87396.272 ns/op
+Iteration   5: 87470.703 ns/op
+
+# Run progress: 39.33% complete, ETA 02:32:11
+# Fork: 2 of 2
+# Warmup Iteration   1: 98318.561 ns/op
+# Warmup Iteration   2: 93324.957 ns/op
+# Warmup Iteration   3: 93424.738 ns/op
+# Warmup Iteration   4: 92808.997 ns/op
+# Warmup Iteration   5: 92889.341 ns/op
+Iteration   1: 92880.478 ns/op
+Iteration   2: 94495.940 ns/op
+Iteration   3: 93490.635 ns/op
+Iteration   4: 92913.189 ns/op
+Iteration   5: 93125.749 ns/op
+
+
+Result "com.guidewire.Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU":
+  90406.918 ±(99.9%) 4826.343 ns/op [Average]
+  (min, avg, max) = (86554.953, 90406.918, 94495.940), stdev = 3192.327
+  CI (99.9%): [85580.575, 95233.261] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 5000)
+
+# Run progress: 40.00% complete, ETA 02:30:31
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 505630.874 ns/op
+# Warmup Iteration   2: 483171.305 ns/op
+# Warmup Iteration   3: 479008.671 ns/op
+# Warmup Iteration   4: 484315.127 ns/op
+# Warmup Iteration   5: 480406.756 ns/op
+Iteration   1: 480423.724 ns/op
+Iteration   2: 477775.768 ns/op
+Iteration   3: 479215.990 ns/op
+Iteration   4: 478725.889 ns/op
+Iteration   5: 484406.619 ns/op
+
+# Run progress: 40.67% complete, ETA 02:28:50
+# Fork: 1 of 2
+# Warmup Iteration   1: 503674.830 ns/op
+# Warmup Iteration   2: 483210.609 ns/op
+# Warmup Iteration   3: 477611.633 ns/op
+# Warmup Iteration   4: 477112.749 ns/op
+# Warmup Iteration   5: 478214.035 ns/op
+Iteration   1: 477274.076 ns/op
+Iteration   2: 480497.396 ns/op
+Iteration   3: 483723.950 ns/op
+Iteration   4: 479906.815 ns/op
+Iteration   5: 478272.730 ns/op
+
+# Run progress: 41.33% complete, ETA 02:27:10
+# Fork: 2 of 2
+# Warmup Iteration   1: 503487.147 ns/op
+# Warmup Iteration   2: 481949.087 ns/op
+# Warmup Iteration   3: 478837.064 ns/op
+# Warmup Iteration   4: 483866.333 ns/op
+# Warmup Iteration   5: 482795.669 ns/op
+Iteration   1: 479153.732 ns/op
+Iteration   2: 481343.625 ns/op
+Iteration   3: 476882.567 ns/op
+Iteration   4: 479547.880 ns/op
+Iteration   5: 478383.840 ns/op
+
+
+Result "com.guidewire.Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU":
+  479498.661 ±(99.9%) 3068.772 ns/op [Average]
+  (min, avg, max) = (476882.567, 479498.661, 483723.950), stdev = 2029.803
+  CI (99.9%): [476429.889, 482567.433] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 10000)
+
+# Run progress: 42.00% complete, ETA 02:25:30
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 1028503.436 ns/op
+# Warmup Iteration   2: 961706.931 ns/op
+# Warmup Iteration   3: 960882.987 ns/op
+# Warmup Iteration   4: 957767.942 ns/op
+# Warmup Iteration   5: 960060.843 ns/op
+Iteration   1: 956096.476 ns/op
+Iteration   2: 960614.259 ns/op
+Iteration   3: 966546.408 ns/op
+Iteration   4: 965420.441 ns/op
+Iteration   5: 960713.717 ns/op
+
+# Run progress: 42.67% complete, ETA 02:23:50
+# Fork: 1 of 2
+# Warmup Iteration   1: 1006499.046 ns/op
+# Warmup Iteration   2: 965291.332 ns/op
+# Warmup Iteration   3: 955490.338 ns/op
+# Warmup Iteration   4: 963189.806 ns/op
+# Warmup Iteration   5: 970192.830 ns/op
+Iteration   1: 959688.136 ns/op
+Iteration   2: 960638.658 ns/op
+Iteration   3: 960791.871 ns/op
+Iteration   4: 962324.031 ns/op
+Iteration   5: 959482.869 ns/op
+
+# Run progress: 43.33% complete, ETA 02:22:09
+# Fork: 2 of 2
+# Warmup Iteration   1: 1018685.629 ns/op
+# Warmup Iteration   2: 970482.108 ns/op
+# Warmup Iteration   3: 964151.842 ns/op
+# Warmup Iteration   4: 966089.352 ns/op
+# Warmup Iteration   5: 964634.930 ns/op
+Iteration   1: 962626.754 ns/op
+Iteration   2: 969943.120 ns/op
+Iteration   3: 973611.735 ns/op
+Iteration   4: 965753.924 ns/op
+Iteration   5: 964639.751 ns/op
+
+
+Result "com.guidewire.Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU":
+  963950.085 ±(99.9%) 7063.407 ns/op [Average]
+  (min, avg, max) = (959482.869, 963950.085, 973611.735), stdev = 4672.006
+  CI (99.9%): [956886.678, 971013.491] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU
+# Parameters: (arraySize = 1000)
+
+# Run progress: 44.00% complete, ETA 02:20:29
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 44267.508 ns/op
+# Warmup Iteration   2: 46734.165 ns/op
+# Warmup Iteration   3: 48877.239 ns/op
+# Warmup Iteration   4: 48114.201 ns/op
+# Warmup Iteration   5: 49759.209 ns/op
+Iteration   1: 47851.141 ns/op
+Iteration   2: 48264.239 ns/op
+Iteration   3: 48063.335 ns/op
+Iteration   4: 46502.420 ns/op
+Iteration   5: 46901.857 ns/op
+
+# Run progress: 44.67% complete, ETA 02:18:49
+# Fork: 1 of 2
+# Warmup Iteration   1: 49349.503 ns/op
+# Warmup Iteration   2: 49020.588 ns/op
+# Warmup Iteration   3: 47473.385 ns/op
+# Warmup Iteration   4: 48097.988 ns/op
+# Warmup Iteration   5: 48030.267 ns/op
+Iteration   1: 48308.159 ns/op
+Iteration   2: 47731.249 ns/op
+Iteration   3: 48513.921 ns/op
+Iteration   4: 48033.751 ns/op
+Iteration   5: 47774.397 ns/op
+
+# Run progress: 45.33% complete, ETA 02:17:09
+# Fork: 2 of 2
+# Warmup Iteration   1: 51361.026 ns/op
+# Warmup Iteration   2: 47884.899 ns/op
+# Warmup Iteration   3: 48521.394 ns/op
+# Warmup Iteration   4: 48605.069 ns/op
+# Warmup Iteration   5: 49502.944 ns/op
+Iteration   1: 49499.408 ns/op
+Iteration   2: 48775.769 ns/op
+Iteration   3: 48872.737 ns/op
+Iteration   4: 49281.988 ns/op
+Iteration   5: 48772.513 ns/op
+
+
+Result "com.guidewire.Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU":
+  48556.389 ±(99.9%) 907.063 ns/op [Average]
+  (min, avg, max) = (47731.249, 48556.389, 49499.408), stdev = 599.966
+  CI (99.9%): [47649.326, 49463.452] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU
+# Parameters: (arraySize = 5000)
+
+# Run progress: 46.00% complete, ETA 02:15:28
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 114600.241 ns/op
+# Warmup Iteration   2: 115344.809 ns/op
+# Warmup Iteration   3: 109272.338 ns/op
+# Warmup Iteration   4: 108909.005 ns/op
+# Warmup Iteration   5: 110136.141 ns/op
+Iteration   1: 110502.339 ns/op
+Iteration   2: 110672.497 ns/op
+Iteration   3: 111109.865 ns/op
+Iteration   4: 122442.503 ns/op
+Iteration   5: 112632.058 ns/op
+
+# Run progress: 46.67% complete, ETA 02:13:48
+# Fork: 1 of 2
+# Warmup Iteration   1: 114420.039 ns/op
+# Warmup Iteration   2: 110900.074 ns/op
+# Warmup Iteration   3: 110495.205 ns/op
+# Warmup Iteration   4: 110078.204 ns/op
+# Warmup Iteration   5: 112053.556 ns/op
+Iteration   1: 119569.145 ns/op
+Iteration   2: 111682.305 ns/op
+Iteration   3: 110647.345 ns/op
+Iteration   4: 111868.612 ns/op
+Iteration   5: 110797.266 ns/op
+
+# Run progress: 47.33% complete, ETA 02:12:08
+# Fork: 2 of 2
+# Warmup Iteration   1: 114840.297 ns/op
+# Warmup Iteration   2: 108589.360 ns/op
+# Warmup Iteration   3: 115243.446 ns/op
+# Warmup Iteration   4: 107238.597 ns/op
+# Warmup Iteration   5: 108144.588 ns/op
+Iteration   1: 109472.326 ns/op
+Iteration   2: 111142.016 ns/op
+Iteration   3: 110041.514 ns/op
+Iteration   4: 110587.111 ns/op
+Iteration   5: 115777.723 ns/op
+
+
+Result "com.guidewire.Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU":
+  112158.536 ±(99.9%) 4718.444 ns/op [Average]
+  (min, avg, max) = (109472.326, 112158.536, 119569.145), stdev = 3120.959
+  CI (99.9%): [107440.092, 116876.981] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU
+# Parameters: (arraySize = 10000)
+
+# Run progress: 48.00% complete, ETA 02:10:27
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 193437.660 ns/op
+# Warmup Iteration   2: 194337.379 ns/op
+# Warmup Iteration   3: 193238.485 ns/op
+# Warmup Iteration   4: 191605.657 ns/op
+# Warmup Iteration   5: 189024.955 ns/op
+Iteration   1: 192769.218 ns/op
+Iteration   2: 207255.964 ns/op
+Iteration   3: 192815.773 ns/op
+Iteration   4: 237398.457 ns/op
+Iteration   5: 199196.774 ns/op
+
+# Run progress: 48.67% complete, ETA 02:08:47
+# Fork: 1 of 2
+# Warmup Iteration   1: 192307.414 ns/op
+# Warmup Iteration   2: 195558.646 ns/op
+# Warmup Iteration   3: 205050.121 ns/op
+# Warmup Iteration   4: 196063.634 ns/op
+# Warmup Iteration   5: 194970.258 ns/op
+Iteration   1: 191875.784 ns/op
+Iteration   2: 190442.878 ns/op
+Iteration   3: 192010.902 ns/op
+Iteration   4: 189921.954 ns/op
+Iteration   5: 209819.179 ns/op
+
+# Run progress: 49.33% complete, ETA 02:07:07
+# Fork: 2 of 2
+# Warmup Iteration   1: 195327.820 ns/op
+# Warmup Iteration   2: 192144.373 ns/op
+# Warmup Iteration   3: 189277.334 ns/op
+# Warmup Iteration   4: 190278.398 ns/op
+# Warmup Iteration   5: 195849.159 ns/op
+Iteration   1: 185143.648 ns/op
+Iteration   2: 208523.126 ns/op
+Iteration   3: 197571.650 ns/op
+Iteration   4: 191689.052 ns/op
+Iteration   5: 188668.019 ns/op
+
+
+Result "com.guidewire.Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU":
+  194566.619 ±(99.9%) 12555.109 ns/op [Average]
+  (min, avg, max) = (185143.648, 194566.619, 209819.179), stdev = 8304.427
+  CI (99.9%): [182011.510, 207121.728] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 1000)
+
+# Run progress: 50.00% complete, ETA 02:05:26
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 92398.546 ns/op
+# Warmup Iteration   2: 86870.399 ns/op
+# Warmup Iteration   3: 86980.139 ns/op
+# Warmup Iteration   4: 87026.022 ns/op
+# Warmup Iteration   5: 87030.058 ns/op
+Iteration   1: 86547.121 ns/op
+Iteration   2: 86370.823 ns/op
+Iteration   3: 86432.011 ns/op
+Iteration   4: 86897.192 ns/op
+Iteration   5: 86954.832 ns/op
+
+# Run progress: 50.67% complete, ETA 02:03:46
+# Fork: 1 of 2
+# Warmup Iteration   1: 98512.119 ns/op
+# Warmup Iteration   2: 92412.258 ns/op
+# Warmup Iteration   3: 92395.583 ns/op
+# Warmup Iteration   4: 91953.538 ns/op
+# Warmup Iteration   5: 93435.639 ns/op
+Iteration   1: 93152.050 ns/op
+Iteration   2: 92492.031 ns/op
+Iteration   3: 94134.604 ns/op
+Iteration   4: 93755.154 ns/op
+Iteration   5: 95259.147 ns/op
+
+# Run progress: 51.33% complete, ETA 02:02:06
+# Fork: 2 of 2
+# Warmup Iteration   1: 97759.406 ns/op
+# Warmup Iteration   2: 93263.113 ns/op
+# Warmup Iteration   3: 93253.645 ns/op
+# Warmup Iteration   4: 93248.274 ns/op
+# Warmup Iteration   5: 93122.794 ns/op
+Iteration   1: 92633.489 ns/op
+Iteration   2: 93084.088 ns/op
+Iteration   3: 92666.776 ns/op
+Iteration   4: 93170.606 ns/op
+Iteration   5: 92722.708 ns/op
+
+
+Result "com.guidewire.Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU":
+  93307.065 ±(99.9%) 1300.356 ns/op [Average]
+  (min, avg, max) = (92492.031, 93307.065, 95259.147), stdev = 860.105
+  CI (99.9%): [92006.709, 94607.421] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 5000)
+
+# Run progress: 52.00% complete, ETA 02:00:26
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 510894.342 ns/op
+# Warmup Iteration   2: 488118.354 ns/op
+# Warmup Iteration   3: 481871.703 ns/op
+# Warmup Iteration   4: 483652.947 ns/op
+# Warmup Iteration   5: 483098.913 ns/op
+Iteration   1: 481881.453 ns/op
+Iteration   2: 479977.537 ns/op
+Iteration   3: 484985.009 ns/op
+Iteration   4: 482831.563 ns/op
+Iteration   5: 483830.502 ns/op
+
+# Run progress: 52.67% complete, ETA 01:58:45
+# Fork: 1 of 2
+# Warmup Iteration   1: 500646.323 ns/op
+# Warmup Iteration   2: 484504.157 ns/op
+# Warmup Iteration   3: 478366.237 ns/op
+# Warmup Iteration   4: 478167.364 ns/op
+# Warmup Iteration   5: 483597.342 ns/op
+Iteration   1: 479764.047 ns/op
+Iteration   2: 479665.851 ns/op
+Iteration   3: 481145.054 ns/op
+Iteration   4: 481750.338 ns/op
+Iteration   5: 481547.630 ns/op
+
+# Run progress: 53.33% complete, ETA 01:57:05
+# Fork: 2 of 2
+# Warmup Iteration   1: 504524.385 ns/op
+# Warmup Iteration   2: 488160.202 ns/op
+# Warmup Iteration   3: 479455.713 ns/op
+# Warmup Iteration   4: 482466.315 ns/op
+# Warmup Iteration   5: 479697.159 ns/op
+Iteration   1: 482408.124 ns/op
+Iteration   2: 485281.011 ns/op
+Iteration   3: 482787.602 ns/op
+Iteration   4: 485605.100 ns/op
+Iteration   5: 481285.816 ns/op
+
+
+Result "com.guidewire.Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU":
+  482124.057 ±(99.9%) 3038.397 ns/op [Average]
+  (min, avg, max) = (479665.851, 482124.057, 485605.100), stdev = 2009.711
+  CI (99.9%): [479085.661, 485162.454] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 10000)
+
+# Run progress: 54.00% complete, ETA 01:55:24
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 967713.696 ns/op
+# Warmup Iteration   2: 923152.734 ns/op
+# Warmup Iteration   3: 919481.634 ns/op
+# Warmup Iteration   4: 921170.715 ns/op
+# Warmup Iteration   5: 925466.690 ns/op
+Iteration   1: 923240.375 ns/op
+Iteration   2: 918035.184 ns/op
+Iteration   3: 919372.447 ns/op
+Iteration   4: 917795.151 ns/op
+Iteration   5: 923462.285 ns/op
+
+# Run progress: 54.67% complete, ETA 01:53:44
+# Fork: 1 of 2
+# Warmup Iteration   1: 1011639.641 ns/op
+# Warmup Iteration   2: 982894.900 ns/op
+# Warmup Iteration   3: 965580.676 ns/op
+# Warmup Iteration   4: 967138.991 ns/op
+# Warmup Iteration   5: 968004.128 ns/op
+Iteration   1: 964692.038 ns/op
+Iteration   2: 964714.779 ns/op
+Iteration   3: 971648.870 ns/op
+Iteration   4: 974426.705 ns/op
+Iteration   5: 972883.248 ns/op
+
+# Run progress: 55.33% complete, ETA 01:52:04
+# Fork: 2 of 2
+# Warmup Iteration   1: 1012387.043 ns/op
+# Warmup Iteration   2: 970997.709 ns/op
+# Warmup Iteration   3: 962899.524 ns/op
+# Warmup Iteration   4: 964123.629 ns/op
+# Warmup Iteration   5: 967431.009 ns/op
+Iteration   1: 970554.990 ns/op
+Iteration   2: 969323.990 ns/op
+Iteration   3: 961949.444 ns/op
+Iteration   4: 974245.834 ns/op
+Iteration   5: 962839.518 ns/op
+
+
+Result "com.guidewire.Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU":
+  968727.942 ±(99.9%) 7223.071 ns/op [Average]
+  (min, avg, max) = (961949.444, 968727.942, 974426.705), stdev = 4777.614
+  CI (99.9%): [961504.871, 975951.012] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU
+# Parameters: (arraySize = 100)
+
+# Run progress: 56.00% complete, ETA 01:50:23
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 34911.295 ns/op
+# Warmup Iteration   2: 36347.797 ns/op
+# Warmup Iteration   3: 38345.975 ns/op
+# Warmup Iteration   4: 40482.370 ns/op
+# Warmup Iteration   5: 41106.595 ns/op
+Iteration   1: 40684.455 ns/op
+Iteration   2: 39447.115 ns/op
+Iteration   3: 39077.134 ns/op
+Iteration   4: 36187.787 ns/op
+Iteration   5: 36664.071 ns/op
+
+# Run progress: 56.67% complete, ETA 01:48:43
+# Fork: 1 of 2
+# Warmup Iteration   1: 40827.604 ns/op
+# Warmup Iteration   2: 39326.731 ns/op
+# Warmup Iteration   3: 39454.106 ns/op
+# Warmup Iteration   4: 39566.071 ns/op
+# Warmup Iteration   5: 38982.094 ns/op
+Iteration   1: 38298.898 ns/op
+Iteration   2: 39747.785 ns/op
+Iteration   3: 38305.353 ns/op
+Iteration   4: 39179.471 ns/op
+Iteration   5: 39216.354 ns/op
+
+# Run progress: 57.33% complete, ETA 01:47:03
+# Fork: 2 of 2
+# Warmup Iteration   1: 39521.335 ns/op
+# Warmup Iteration   2: 36726.239 ns/op
+# Warmup Iteration   3: 35513.321 ns/op
+# Warmup Iteration   4: 38343.245 ns/op
+# Warmup Iteration   5: 37649.735 ns/op
+Iteration   1: 36834.290 ns/op
+Iteration   2: 37005.292 ns/op
+Iteration   3: 36539.211 ns/op
+Iteration   4: 36544.867 ns/op
+Iteration   5: 37102.467 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU":
+  37877.399 ±(99.9%) 1842.213 ns/op [Average]
+  (min, avg, max) = (36539.211, 37877.399, 39747.785), stdev = 1218.510
+  CI (99.9%): [36035.186, 39719.612] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU
+# Parameters: (arraySize = 1000)
+
+# Run progress: 58.00% complete, ETA 01:45:22
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 38013.858 ns/op
+# Warmup Iteration   2: 35910.945 ns/op
+# Warmup Iteration   3: 36745.084 ns/op
+# Warmup Iteration   4: 35491.710 ns/op
+# Warmup Iteration   5: 35691.235 ns/op
+Iteration   1: 35961.686 ns/op
+Iteration   2: 35615.620 ns/op
+Iteration   3: 35560.767 ns/op
+Iteration   4: 36527.673 ns/op
+Iteration   5: 35510.252 ns/op
+
+# Run progress: 58.67% complete, ETA 01:43:42
+# Fork: 1 of 2
+# Warmup Iteration   1: 37055.181 ns/op
+# Warmup Iteration   2: 35319.793 ns/op
+# Warmup Iteration   3: 34200.798 ns/op
+# Warmup Iteration   4: 35515.410 ns/op
+# Warmup Iteration   5: 35978.354 ns/op
+Iteration   1: 35258.907 ns/op
+Iteration   2: 34851.372 ns/op
+Iteration   3: 34965.803 ns/op
+Iteration   4: 34732.417 ns/op
+Iteration   5: 34848.728 ns/op
+
+# Run progress: 59.33% complete, ETA 01:42:02
+# Fork: 2 of 2
+# Warmup Iteration   1: 37234.028 ns/op
+# Warmup Iteration   2: 36214.103 ns/op
+# Warmup Iteration   3: 34076.019 ns/op
+# Warmup Iteration   4: 33905.263 ns/op
+# Warmup Iteration   5: 33731.791 ns/op
+Iteration   1: 33970.521 ns/op
+Iteration   2: 34421.660 ns/op
+Iteration   3: 35981.969 ns/op
+Iteration   4: 35072.584 ns/op
+Iteration   5: 35343.683 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU":
+  34944.764 ±(99.9%) 818.239 ns/op [Average]
+  (min, avg, max) = (33970.521, 34944.764, 35981.969), stdev = 541.215
+  CI (99.9%): [34126.525, 35763.004] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU
+# Parameters: (arraySize = 10000)
+
+# Run progress: 60.00% complete, ETA 01:40:21
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 47174.797 ns/op
+# Warmup Iteration   2: 47772.283 ns/op
+# Warmup Iteration   3: 46324.357 ns/op
+# Warmup Iteration   4: 47387.563 ns/op
+# Warmup Iteration   5: 45487.909 ns/op
+Iteration   1: 46046.093 ns/op
+Iteration   2: 46245.700 ns/op
+Iteration   3: 46284.811 ns/op
+Iteration   4: 46366.078 ns/op
+Iteration   5: 46155.839 ns/op
+
+# Run progress: 60.67% complete, ETA 01:38:41
+# Fork: 1 of 2
+# Warmup Iteration   1: 47652.066 ns/op
+# Warmup Iteration   2: 46097.673 ns/op
+# Warmup Iteration   3: 46459.315 ns/op
+# Warmup Iteration   4: 46747.596 ns/op
+# Warmup Iteration   5: 45959.921 ns/op
+Iteration   1: 45942.038 ns/op
+Iteration   2: 46295.407 ns/op
+Iteration   3: 46274.499 ns/op
+Iteration   4: 45930.953 ns/op
+Iteration   5: 46052.913 ns/op
+
+# Run progress: 61.33% complete, ETA 01:37:01
+# Fork: 2 of 2
+# Warmup Iteration   1: 46762.096 ns/op
+# Warmup Iteration   2: 45739.678 ns/op
+# Warmup Iteration   3: 45959.553 ns/op
+# Warmup Iteration   4: 46066.725 ns/op
+# Warmup Iteration   5: 45784.150 ns/op
+Iteration   1: 45402.208 ns/op
+Iteration   2: 45423.900 ns/op
+Iteration   3: 46142.458 ns/op
+Iteration   4: 45922.680 ns/op
+Iteration   5: 46392.719 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU":
+  45977.978 ±(99.9%) 513.547 ns/op [Average]
+  (min, avg, max) = (45402.208, 45977.978, 46392.719), stdev = 339.680
+  CI (99.9%): [45464.430, 46491.525] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU
+# Parameters: (arraySize = 100000)
+
+# Run progress: 62.00% complete, ETA 01:35:20
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 169416.551 ns/op
+# Warmup Iteration   2: 176200.373 ns/op
+# Warmup Iteration   3: 168030.923 ns/op
+# Warmup Iteration   4: 172561.309 ns/op
+# Warmup Iteration   5: 174471.461 ns/op
+Iteration   1: 173395.000 ns/op
+Iteration   2: 173508.815 ns/op
+Iteration   3: 178693.794 ns/op
+Iteration   4: 176548.828 ns/op
+Iteration   5: 174733.592 ns/op
+
+# Run progress: 62.67% complete, ETA 01:33:40
+# Fork: 1 of 2
+# Warmup Iteration   1: 166827.511 ns/op
+# Warmup Iteration   2: 169714.439 ns/op
+# Warmup Iteration   3: 171029.710 ns/op
+# Warmup Iteration   4: 171280.925 ns/op
+# Warmup Iteration   5: 177280.001 ns/op
+Iteration   1: 171512.521 ns/op
+Iteration   2: 171406.000 ns/op
+Iteration   3: 173647.265 ns/op
+Iteration   4: 171879.033 ns/op
+Iteration   5: 175046.232 ns/op
+
+# Run progress: 63.33% complete, ETA 01:32:00
+# Fork: 2 of 2
+# Warmup Iteration   1: 160110.146 ns/op
+# Warmup Iteration   2: 167369.171 ns/op
+# Warmup Iteration   3: 164972.163 ns/op
+# Warmup Iteration   4: 166025.719 ns/op
+# Warmup Iteration   5: 165503.747 ns/op
+Iteration   1: 166456.250 ns/op
+Iteration   2: 165435.291 ns/op
+Iteration   3: 164421.465 ns/op
+Iteration   4: 166676.373 ns/op
+Iteration   5: 164548.747 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU":
+  169102.918 ±(99.9%) 6043.064 ns/op [Average]
+  (min, avg, max) = (164421.465, 169102.918, 175046.232), stdev = 3997.113
+  CI (99.9%): [163059.854, 175145.982] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU
+# Parameters: (arraySize = 500000)
+
+# Run progress: 64.00% complete, ETA 01:30:19
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 739347.687 ns/op
+# Warmup Iteration   2: 765043.919 ns/op
+# Warmup Iteration   3: 777568.297 ns/op
+# Warmup Iteration   4: 781838.929 ns/op
+# Warmup Iteration   5: 784445.927 ns/op
+Iteration   1: 796715.249 ns/op
+Iteration   2: 785178.749 ns/op
+Iteration   3: 780285.525 ns/op
+Iteration   4: 780307.052 ns/op
+Iteration   5: 783684.487 ns/op
+
+# Run progress: 64.67% complete, ETA 01:28:39
+# Fork: 1 of 2
+# Warmup Iteration   1: 412986.565 ns/op
+# Warmup Iteration   2: 427772.017 ns/op
+# Warmup Iteration   3: 460666.436 ns/op
+# Warmup Iteration   4: 443671.131 ns/op
+# Warmup Iteration   5: 443295.628 ns/op
+Iteration   1: 442211.937 ns/op
+Iteration   2: 445360.791 ns/op
+Iteration   3: 438493.105 ns/op
+Iteration   4: 440087.314 ns/op
+Iteration   5: 460395.360 ns/op
+
+# Run progress: 65.33% complete, ETA 01:26:59
+# Fork: 2 of 2
+# Warmup Iteration   1: 507646.335 ns/op
+# Warmup Iteration   2: 529588.910 ns/op
+# Warmup Iteration   3: 532223.688 ns/op
+# Warmup Iteration   4: 524801.874 ns/op
+# Warmup Iteration   5: 524412.870 ns/op
+Iteration   1: 521710.915 ns/op
+Iteration   2: 537034.948 ns/op
+Iteration   3: 539653.012 ns/op
+Iteration   4: 528496.301 ns/op
+Iteration   5: 522173.943 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearchCPU":
+  487561.763 ±(99.9%) 68429.981 ns/op [Average]
+  (min, avg, max) = (438493.105, 487561.763, 539653.012), stdev = 45262.195
+  CI (99.9%): [419131.782, 555991.744] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 100)
+
+# Run progress: 66.00% complete, ETA 01:25:18
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 372.690 ns/op
+# Warmup Iteration   2: 342.515 ns/op
+# Warmup Iteration   3: 340.272 ns/op
+# Warmup Iteration   4: 337.510 ns/op
+# Warmup Iteration   5: 333.613 ns/op
+Iteration   1: 330.755 ns/op
+Iteration   2: 329.711 ns/op
+Iteration   3: 332.353 ns/op
+Iteration   4: 330.166 ns/op
+Iteration   5: 331.403 ns/op
+
+# Run progress: 66.67% complete, ETA 01:23:38
+# Fork: 1 of 2
+# Warmup Iteration   1: 349.178 ns/op
+# Warmup Iteration   2: 331.779 ns/op
+# Warmup Iteration   3: 327.807 ns/op
+# Warmup Iteration   4: 331.783 ns/op
+# Warmup Iteration   5: 330.986 ns/op
+Iteration   1: 331.552 ns/op
+Iteration   2: 334.036 ns/op
+Iteration   3: 334.326 ns/op
+Iteration   4: 330.191 ns/op
+Iteration   5: 329.549 ns/op
+
+# Run progress: 67.33% complete, ETA 01:21:58
+# Fork: 2 of 2
+# Warmup Iteration   1: 352.664 ns/op
+# Warmup Iteration   2: 336.511 ns/op
+# Warmup Iteration   3: 336.208 ns/op
+# Warmup Iteration   4: 336.578 ns/op
+# Warmup Iteration   5: 335.531 ns/op
+Iteration   1: 336.334 ns/op
+Iteration   2: 334.695 ns/op
+Iteration   3: 334.810 ns/op
+Iteration   4: 336.748 ns/op
+Iteration   5: 334.217 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU":
+  333.646 ±(99.9%) 3.681 ns/op [Average]
+  (min, avg, max) = (329.549, 333.646, 336.748), stdev = 2.435
+  CI (99.9%): [329.965, 337.327] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 1000)
+
+# Run progress: 68.00% complete, ETA 01:20:17
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 2522.851 ns/op
+# Warmup Iteration   2: 2480.805 ns/op
+# Warmup Iteration   3: 2462.778 ns/op
+# Warmup Iteration   4: 2446.759 ns/op
+# Warmup Iteration   5: 2450.160 ns/op
+Iteration   1: 2436.574 ns/op
+Iteration   2: 2442.485 ns/op
+Iteration   3: 2465.638 ns/op
+Iteration   4: 2447.215 ns/op
+Iteration   5: 2460.646 ns/op
+
+# Run progress: 68.67% complete, ETA 01:18:37
+# Fork: 1 of 2
+# Warmup Iteration   1: 3236.440 ns/op
+# Warmup Iteration   2: 3220.571 ns/op
+# Warmup Iteration   3: 3245.859 ns/op
+# Warmup Iteration   4: 3225.895 ns/op
+# Warmup Iteration   5: 3211.207 ns/op
+Iteration   1: 3187.830 ns/op
+Iteration   2: 3191.291 ns/op
+Iteration   3: 3208.533 ns/op
+Iteration   4: 3194.120 ns/op
+Iteration   5: 3200.650 ns/op
+
+# Run progress: 69.33% complete, ETA 01:16:57
+# Fork: 2 of 2
+# Warmup Iteration   1: 2486.980 ns/op
+# Warmup Iteration   2: 2481.519 ns/op
+# Warmup Iteration   3: 2447.631 ns/op
+# Warmup Iteration   4: 2419.143 ns/op
+# Warmup Iteration   5: 2426.678 ns/op
+Iteration   1: 2433.720 ns/op
+Iteration   2: 2425.588 ns/op
+Iteration   3: 2437.118 ns/op
+Iteration   4: 2448.608 ns/op
+Iteration   5: 2414.219 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU":
+  2814.168 ±(99.9%) 609.469 ns/op [Average]
+  (min, avg, max) = (2414.219, 2814.168, 3208.533), stdev = 403.126
+  CI (99.9%): [2204.699, 3423.637] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 10000)
+
+# Run progress: 70.00% complete, ETA 01:15:16
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 27052.665 ns/op
+# Warmup Iteration   2: 25894.077 ns/op
+# Warmup Iteration   3: 29185.490 ns/op
+# Warmup Iteration   4: 29647.971 ns/op
+# Warmup Iteration   5: 29926.665 ns/op
+Iteration   1: 29463.677 ns/op
+Iteration   2: 29634.928 ns/op
+Iteration   3: 29596.915 ns/op
+Iteration   4: 29580.982 ns/op
+Iteration   5: 29646.425 ns/op
+
+# Run progress: 70.67% complete, ETA 01:13:36
+# Fork: 1 of 2
+# Warmup Iteration   1: 29653.747 ns/op
+# Warmup Iteration   2: 29430.017 ns/op
+# Warmup Iteration   3: 32405.478 ns/op
+# Warmup Iteration   4: 32732.833 ns/op
+# Warmup Iteration   5: 32912.282 ns/op
+Iteration   1: 32955.599 ns/op
+Iteration   2: 32796.740 ns/op
+Iteration   3: 33076.716 ns/op
+Iteration   4: 33008.503 ns/op
+Iteration   5: 32957.558 ns/op
+
+# Run progress: 71.33% complete, ETA 01:11:55
+# Fork: 2 of 2
+# Warmup Iteration   1: 26946.434 ns/op
+# Warmup Iteration   2: 26032.345 ns/op
+# Warmup Iteration   3: 29048.495 ns/op
+# Warmup Iteration   4: 29381.503 ns/op
+# Warmup Iteration   5: 29566.171 ns/op
+Iteration   1: 29664.261 ns/op
+Iteration   2: 29487.874 ns/op
+Iteration   3: 29356.918 ns/op
+Iteration   4: 29632.284 ns/op
+Iteration   5: 29528.699 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU":
+  31246.515 ±(99.9%) 2733.896 ns/op [Average]
+  (min, avg, max) = (29356.918, 31246.515, 33076.716), stdev = 1808.303
+  CI (99.9%): [28512.619, 33980.411] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 100000)
+
+# Run progress: 72.00% complete, ETA 01:10:15
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 327055.625 ns/op
+# Warmup Iteration   2: 342844.168 ns/op
+# Warmup Iteration   3: 181377.501 ns/op
+# Warmup Iteration   4: 169641.497 ns/op
+# Warmup Iteration   5: 287365.511 ns/op
+Iteration   1: 285507.485 ns/op
+Iteration   2: 286402.505 ns/op
+Iteration   3: 292532.702 ns/op
+Iteration   4: 290094.404 ns/op
+Iteration   5: 289520.081 ns/op
+
+# Run progress: 72.67% complete, ETA 01:08:35
+# Fork: 1 of 2
+# Warmup Iteration   1: 323387.832 ns/op
+# Warmup Iteration   2: 337104.644 ns/op
+# Warmup Iteration   3: 179566.680 ns/op
+# Warmup Iteration   4: 279608.969 ns/op
+# Warmup Iteration   5: 173823.887 ns/op
+Iteration   1: 281943.492 ns/op
+Iteration   2: 280753.033 ns/op
+Iteration   3: 281198.567 ns/op
+Iteration   4: 279201.133 ns/op
+Iteration   5: 282986.750 ns/op
+
+# Run progress: 73.33% complete, ETA 01:06:54
+# Fork: 2 of 2
+# Warmup Iteration   1: 324017.238 ns/op
+# Warmup Iteration   2: 342091.754 ns/op
+# Warmup Iteration   3: 181263.907 ns/op
+# Warmup Iteration   4: 169343.164 ns/op
+# Warmup Iteration   5: 274161.771 ns/op
+Iteration   1: 277260.041 ns/op
+Iteration   2: 275098.774 ns/op
+Iteration   3: 274711.040 ns/op
+Iteration   4: 280188.999 ns/op
+Iteration   5: 274225.966 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU":
+  278756.780 ±(99.9%) 4853.702 ns/op [Average]
+  (min, avg, max) = (274225.966, 278756.780, 282986.750), stdev = 3210.423
+  CI (99.9%): [273903.078, 283610.481] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU
+# Parameters: (arraySize = 500000)
+
+# Run progress: 74.00% complete, ETA 01:05:14
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 1419424.507 ns/op
+# Warmup Iteration   2: 1722534.587 ns/op
+# Warmup Iteration   3: 1728171.947 ns/op
+# Warmup Iteration   4: 1724695.310 ns/op
+# Warmup Iteration   5: 1721297.185 ns/op
+Iteration   1: 1740458.768 ns/op
+Iteration   2: 1725433.646 ns/op
+Iteration   3: 1716806.804 ns/op
+Iteration   4: 1718325.146 ns/op
+Iteration   5: 1723589.610 ns/op
+
+# Run progress: 74.67% complete, ETA 01:03:34
+# Fork: 1 of 2
+# Warmup Iteration   1: 1411144.656 ns/op
+# Warmup Iteration   2: 1734480.248 ns/op
+# Warmup Iteration   3: 1733498.857 ns/op
+# Warmup Iteration   4: 1722014.912 ns/op
+# Warmup Iteration   5: 1723379.452 ns/op
+Iteration   1: 1716957.032 ns/op
+Iteration   2: 1712745.076 ns/op
+Iteration   3: 1720520.932 ns/op
+Iteration   4: 1734905.671 ns/op
+Iteration   5: 1753967.131 ns/op
+
+# Run progress: 75.33% complete, ETA 01:01:53
+# Fork: 2 of 2
+# Warmup Iteration   1: 1416198.361 ns/op
+# Warmup Iteration   2: 1717997.950 ns/op
+# Warmup Iteration   3: 1705926.876 ns/op
+# Warmup Iteration   4: 1711222.289 ns/op
+# Warmup Iteration   5: 1716576.067 ns/op
+Iteration   1: 1759286.654 ns/op
+Iteration   2: 1717707.649 ns/op
+Iteration   3: 1738157.625 ns/op
+Iteration   4: 1728012.665 ns/op
+Iteration   5: 1708007.738 ns/op
+
+
+Result "com.guidewire.Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearchCPU":
+  1729026.817 ±(99.9%) 26233.076 ns/op [Average]
+  (min, avg, max) = (1708007.738, 1729026.817, 1759286.654), stdev = 17351.555
+  CI (99.9%): [1702793.742, 1755259.893] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList
+# Parameters: (arraySize = 10000)
+
+# Run progress: 76.00% complete, ETA 01:00:13
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 40228.230 ns/op
+# Warmup Iteration   2: 43970.728 ns/op
+# Warmup Iteration   3: 43289.202 ns/op
+# Warmup Iteration   4: 44304.270 ns/op
+# Warmup Iteration   5: 43464.158 ns/op
+Iteration   1: 42896.824 ns/op
+Iteration   2: 44867.578 ns/op
+Iteration   3: 45473.511 ns/op
+Iteration   4: 44882.805 ns/op
+Iteration   5: 45786.337 ns/op
+
+# Run progress: 76.67% complete, ETA 00:58:32
+# Fork: 1 of 2
+# Warmup Iteration   1: 46916.657 ns/op
+# Warmup Iteration   2: 44855.901 ns/op
+# Warmup Iteration   3: 44331.194 ns/op
+# Warmup Iteration   4: 44647.291 ns/op
+# Warmup Iteration   5: 44597.264 ns/op
+Iteration   1: 44503.743 ns/op
+Iteration   2: 43557.694 ns/op
+Iteration   3: 43575.753 ns/op
+Iteration   4: 43859.906 ns/op
+Iteration   5: 44167.596 ns/op
+
+# Run progress: 77.33% complete, ETA 00:56:52
+# Fork: 2 of 2
+# Warmup Iteration   1: 47329.039 ns/op
+# Warmup Iteration   2: 44754.887 ns/op
+# Warmup Iteration   3: 44473.524 ns/op
+# Warmup Iteration   4: 44200.542 ns/op
+# Warmup Iteration   5: 44364.166 ns/op
+Iteration   1: 43947.584 ns/op
+Iteration   2: 43646.299 ns/op
+Iteration   3: 44520.621 ns/op
+Iteration   4: 44173.608 ns/op
+Iteration   5: 44697.278 ns/op
+
+
+Result "com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList":
+  44065.008 ±(99.9%) 627.429 ns/op [Average]
+  (min, avg, max) = (43557.694, 44065.008, 44697.278), stdev = 415.005
+  CI (99.9%): [43437.579, 44692.437] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList
+# Parameters: (arraySize = 50000)
+
+# Run progress: 78.00% complete, ETA 00:55:12
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 98800.161 ns/op
+# Warmup Iteration   2: 99437.497 ns/op
+# Warmup Iteration   3: 101293.590 ns/op
+# Warmup Iteration   4: 100119.084 ns/op
+# Warmup Iteration   5: 100258.714 ns/op
+Iteration   1: 98503.153 ns/op
+Iteration   2: 102312.902 ns/op
+Iteration   3: 99745.219 ns/op
+Iteration   4: 99670.661 ns/op
+Iteration   5: 100324.619 ns/op
+
+# Run progress: 78.67% complete, ETA 00:53:31
+# Fork: 1 of 2
+# Warmup Iteration   1: 99910.611 ns/op
+# Warmup Iteration   2: 100893.793 ns/op
+# Warmup Iteration   3: 100027.708 ns/op
+# Warmup Iteration   4: 101503.986 ns/op
+# Warmup Iteration   5: 99344.662 ns/op
+Iteration   1: 99297.451 ns/op
+Iteration   2: 98768.017 ns/op
+Iteration   3: 100880.448 ns/op
+Iteration   4: 99576.771 ns/op
+Iteration   5: 99956.253 ns/op
+
+# Run progress: 79.33% complete, ETA 00:51:51
+# Fork: 2 of 2
+# Warmup Iteration   1: 65124.974 ns/op
+# Warmup Iteration   2: 64407.947 ns/op
+# Warmup Iteration   3: 64073.218 ns/op
+# Warmup Iteration   4: 64097.567 ns/op
+# Warmup Iteration   5: 64101.324 ns/op
+Iteration   1: 63893.478 ns/op
+Iteration   2: 64468.805 ns/op
+Iteration   3: 65470.103 ns/op
+Iteration   4: 63760.872 ns/op
+Iteration   5: 64239.080 ns/op
+
+
+Result "com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList":
+  82031.128 ±(99.9%) 28170.636 ns/op [Average]
+  (min, avg, max) = (63760.872, 82031.128, 100880.448), stdev = 18633.131
+  CI (99.9%): [53860.492, 110201.763] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList
+# Parameters: (arraySize = 100000)
+
+# Run progress: 80.00% complete, ETA 00:50:11
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 167105.952 ns/op
+# Warmup Iteration   2: 171764.399 ns/op
+# Warmup Iteration   3: 172375.169 ns/op
+# Warmup Iteration   4: 170819.658 ns/op
+# Warmup Iteration   5: 169063.993 ns/op
+Iteration   1: 167009.797 ns/op
+Iteration   2: 168361.612 ns/op
+Iteration   3: 166548.605 ns/op
+Iteration   4: 167331.962 ns/op
+Iteration   5: 167709.611 ns/op
+
+# Run progress: 80.67% complete, ETA 00:48:30
+# Fork: 1 of 2
+# Warmup Iteration   1: 166609.957 ns/op
+# Warmup Iteration   2: 164408.520 ns/op
+# Warmup Iteration   3: 159698.921 ns/op
+# Warmup Iteration   4: 161848.156 ns/op
+# Warmup Iteration   5: 162281.806 ns/op
+Iteration   1: 159645.806 ns/op
+Iteration   2: 162134.610 ns/op
+Iteration   3: 171406.504 ns/op
+Iteration   4: 159536.470 ns/op
+Iteration   5: 163349.767 ns/op
+
+# Run progress: 81.33% complete, ETA 00:46:50
+# Fork: 2 of 2
+# Warmup Iteration   1: 150360.592 ns/op
+# Warmup Iteration   2: 153097.172 ns/op
+# Warmup Iteration   3: 149539.125 ns/op
+# Warmup Iteration   4: 149894.713 ns/op
+# Warmup Iteration   5: 156964.262 ns/op
+Iteration   1: 150283.865 ns/op
+Iteration   2: 151588.433 ns/op
+Iteration   3: 150713.590 ns/op
+Iteration   4: 150137.548 ns/op
+Iteration   5: 149299.615 ns/op
+
+
+Result "com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList":
+  156809.621 ±(99.9%) 11354.064 ns/op [Average]
+  (min, avg, max) = (149299.615, 156809.621, 171406.504), stdev = 7510.010
+  CI (99.9%): [145455.557, 168163.685] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList
+# Parameters: (arraySize = 10000)
+
+# Run progress: 82.00% complete, ETA 00:45:10
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 31561.677 ns/op
+# Warmup Iteration   2: 31497.314 ns/op
+# Warmup Iteration   3: 32997.745 ns/op
+# Warmup Iteration   4: 34004.708 ns/op
+# Warmup Iteration   5: 33786.991 ns/op
+Iteration   1: 33793.024 ns/op
+Iteration   2: 33828.357 ns/op
+Iteration   3: 33705.392 ns/op
+Iteration   4: 34065.186 ns/op
+Iteration   5: 34217.575 ns/op
+
+# Run progress: 82.67% complete, ETA 00:43:29
+# Fork: 1 of 2
+# Warmup Iteration   1: 30788.756 ns/op
+# Warmup Iteration   2: 30797.451 ns/op
+# Warmup Iteration   3: 33367.090 ns/op
+# Warmup Iteration   4: 34143.588 ns/op
+# Warmup Iteration   5: 34078.922 ns/op
+Iteration   1: 34663.671 ns/op
+Iteration   2: 34160.735 ns/op
+Iteration   3: 34359.084 ns/op
+Iteration   4: 34169.707 ns/op
+Iteration   5: 34412.879 ns/op
+
+# Run progress: 83.33% complete, ETA 00:41:49
+# Fork: 2 of 2
+# Warmup Iteration   1: 30968.036 ns/op
+# Warmup Iteration   2: 31376.794 ns/op
+# Warmup Iteration   3: 33376.107 ns/op
+# Warmup Iteration   4: 33996.975 ns/op
+# Warmup Iteration   5: 34171.640 ns/op
+Iteration   1: 34357.666 ns/op
+Iteration   2: 34048.639 ns/op
+Iteration   3: 34237.491 ns/op
+Iteration   4: 34292.678 ns/op
+Iteration   5: 34649.496 ns/op
+
+
+Result "com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList":
+  34335.205 ±(99.9%) 304.498 ns/op [Average]
+  (min, avg, max) = (34048.639, 34335.205, 34663.671), stdev = 201.407
+  CI (99.9%): [34030.706, 34639.703] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList
+# Parameters: (arraySize = 50000)
+
+# Run progress: 84.00% complete, ETA 00:40:08
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 155445.796 ns/op
+# Warmup Iteration   2: 153882.022 ns/op
+# Warmup Iteration   3: 154276.396 ns/op
+# Warmup Iteration   4: 155233.326 ns/op
+# Warmup Iteration   5: 153983.982 ns/op
+Iteration   1: 157144.076 ns/op
+Iteration   2: 155918.570 ns/op
+Iteration   3: 153789.510 ns/op
+Iteration   4: 153989.151 ns/op
+Iteration   5: 156270.139 ns/op
+
+# Run progress: 84.67% complete, ETA 00:38:28
+# Fork: 1 of 2
+# Warmup Iteration   1: 156980.589 ns/op
+# Warmup Iteration   2: 152805.473 ns/op
+# Warmup Iteration   3: 155642.251 ns/op
+# Warmup Iteration   4: 157920.309 ns/op
+# Warmup Iteration   5: 154220.372 ns/op
+Iteration   1: 153902.608 ns/op
+Iteration   2: 156855.342 ns/op
+Iteration   3: 154995.601 ns/op
+Iteration   4: 152790.273 ns/op
+Iteration   5: 157847.045 ns/op
+
+# Run progress: 85.33% complete, ETA 00:36:48
+# Fork: 2 of 2
+# Warmup Iteration   1: 153676.300 ns/op
+# Warmup Iteration   2: 156615.266 ns/op
+# Warmup Iteration   3: 154046.411 ns/op
+# Warmup Iteration   4: 157218.375 ns/op
+# Warmup Iteration   5: 154209.425 ns/op
+Iteration   1: 155869.885 ns/op
+Iteration   2: 157119.168 ns/op
+Iteration   3: 155330.849 ns/op
+Iteration   4: 156703.779 ns/op
+Iteration   5: 154024.439 ns/op
+
+
+Result "com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList":
+  155543.899 ±(99.9%) 2463.111 ns/op [Average]
+  (min, avg, max) = (152790.273, 155543.899, 157847.045), stdev = 1629.195
+  CI (99.9%): [153080.788, 158007.010] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList
+# Parameters: (arraySize = 100000)
+
+# Run progress: 86.00% complete, ETA 00:35:07
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 326762.538 ns/op
+# Warmup Iteration   2: 322108.488 ns/op
+# Warmup Iteration   3: 328451.918 ns/op
+# Warmup Iteration   4: 329651.745 ns/op
+# Warmup Iteration   5: 318869.372 ns/op
+Iteration   1: 320749.130 ns/op
+Iteration   2: 322423.245 ns/op
+Iteration   3: 324076.790 ns/op
+Iteration   4: 318235.978 ns/op
+Iteration   5: 330955.714 ns/op
+
+# Run progress: 86.67% complete, ETA 00:33:27
+# Fork: 1 of 2
+# Warmup Iteration   1: 322623.679 ns/op
+# Warmup Iteration   2: 320140.433 ns/op
+# Warmup Iteration   3: 322622.382 ns/op
+# Warmup Iteration   4: 322949.451 ns/op
+# Warmup Iteration   5: 319320.545 ns/op
+Iteration   1: 322227.863 ns/op
+Iteration   2: 328661.308 ns/op
+Iteration   3: 320844.486 ns/op
+Iteration   4: 322109.693 ns/op
+Iteration   5: 322775.427 ns/op
+
+# Run progress: 87.33% complete, ETA 00:31:47
+# Fork: 2 of 2
+# Warmup Iteration   1: 322923.774 ns/op
+# Warmup Iteration   2: 324525.294 ns/op
+# Warmup Iteration   3: 327080.387 ns/op
+# Warmup Iteration   4: 325750.731 ns/op
+# Warmup Iteration   5: 325708.096 ns/op
+Iteration   1: 323174.187 ns/op
+Iteration   2: 323187.207 ns/op
+Iteration   3: 327195.900 ns/op
+Iteration   4: 321603.613 ns/op
+Iteration   5: 331632.096 ns/op
+
+
+Result "com.guidewire.Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList":
+  324341.178 ±(99.9%) 5387.397 ns/op [Average]
+  (min, avg, max) = (320844.486, 324341.178, 331632.096), stdev = 3563.430
+  CI (99.9%): [318953.781, 329728.575] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount
+# Parameters: (arraySize = 100)
+
+# Run progress: 88.00% complete, ETA 00:30:06
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 37517.919 ns/op
+# Warmup Iteration   2: 36661.220 ns/op
+# Warmup Iteration   3: 37450.369 ns/op
+# Warmup Iteration   4: 38099.367 ns/op
+# Warmup Iteration   5: 38473.146 ns/op
+Iteration   1: 38092.373 ns/op
+Iteration   2: 38148.512 ns/op
+Iteration   3: 37822.952 ns/op
+Iteration   4: 37968.700 ns/op
+Iteration   5: 38068.792 ns/op
+
+# Run progress: 88.67% complete, ETA 00:28:26
+# Fork: 1 of 2
+# Warmup Iteration   1: 42217.763 ns/op
+# Warmup Iteration   2: 38550.869 ns/op
+# Warmup Iteration   3: 38276.619 ns/op
+# Warmup Iteration   4: 40405.163 ns/op
+# Warmup Iteration   5: 39665.322 ns/op
+Iteration   1: 39065.171 ns/op
+Iteration   2: 38593.567 ns/op
+Iteration   3: 38564.395 ns/op
+Iteration   4: 38418.969 ns/op
+Iteration   5: 38198.093 ns/op
+
+# Run progress: 89.33% complete, ETA 00:26:45
+# Fork: 2 of 2
+# Warmup Iteration   1: 39933.499 ns/op
+# Warmup Iteration   2: 39963.897 ns/op
+# Warmup Iteration   3: 39268.355 ns/op
+# Warmup Iteration   4: 39831.074 ns/op
+# Warmup Iteration   5: 39176.044 ns/op
+Iteration   1: 39423.319 ns/op
+Iteration   2: 39362.718 ns/op
+Iteration   3: 38243.782 ns/op
+Iteration   4: 39476.051 ns/op
+Iteration   5: 39932.402 ns/op
+
+
+Result "com.guidewire.Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount":
+  38927.847 ±(99.9%) 910.803 ns/op [Average]
+  (min, avg, max) = (38198.093, 38927.847, 39932.402), stdev = 602.440
+  CI (99.9%): [38017.043, 39838.650] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount
+# Parameters: (arraySize = 10000)
+
+# Run progress: 90.00% complete, ETA 00:25:05
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 756149.659 ns/op
+# Warmup Iteration   2: 731043.947 ns/op
+# Warmup Iteration   3: 730127.740 ns/op
+# Warmup Iteration   4: 741555.451 ns/op
+# Warmup Iteration   5: 745296.657 ns/op
+Iteration   1: 726923.307 ns/op
+Iteration   2: 722883.132 ns/op
+Iteration   3: 725127.077 ns/op
+Iteration   4: 726318.473 ns/op
+Iteration   5: 727612.233 ns/op
+
+# Run progress: 90.67% complete, ETA 00:23:25
+# Fork: 1 of 2
+# Warmup Iteration   1: 776281.340 ns/op
+# Warmup Iteration   2: 729365.990 ns/op
+# Warmup Iteration   3: 719916.372 ns/op
+# Warmup Iteration   4: 721509.921 ns/op
+# Warmup Iteration   5: 725877.575 ns/op
+Iteration   1: 724367.722 ns/op
+Iteration   2: 724925.952 ns/op
+Iteration   3: 750525.486 ns/op
+Iteration   4: 723376.679 ns/op
+Iteration   5: 724859.335 ns/op
+
+# Run progress: 91.33% complete, ETA 00:21:44
+# Fork: 2 of 2
+# Warmup Iteration   1: 738223.126 ns/op
+# Warmup Iteration   2: 714410.779 ns/op
+# Warmup Iteration   3: 713558.573 ns/op
+# Warmup Iteration   4: 714118.923 ns/op
+# Warmup Iteration   5: 735683.783 ns/op
+Iteration   1: 725842.094 ns/op
+Iteration   2: 710388.132 ns/op
+Iteration   3: 712534.527 ns/op
+Iteration   4: 716070.759 ns/op
+Iteration   5: 713225.177 ns/op
+
+
+Result "com.guidewire.Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount":
+  722611.586 ±(99.9%) 17351.977 ns/op [Average]
+  (min, avg, max) = (710388.132, 722611.586, 750525.486), stdev = 11477.258
+  CI (99.9%): [705259.610, 739963.563] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount
+# Parameters: (arraySize = 100000)
+
+# Run progress: 92.00% complete, ETA 00:20:04
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 17972885.656 ns/op
+# Warmup Iteration   2: 17036040.088 ns/op
+# Warmup Iteration   3: 16299939.570 ns/op
+# Warmup Iteration   4: 16529099.285 ns/op
+# Warmup Iteration   5: 16198182.819 ns/op
+Iteration   1: 16269232.722 ns/op
+Iteration   2: 16272163.361 ns/op
+Iteration   3: 15993712.704 ns/op
+Iteration   4: 17069649.874 ns/op
+Iteration   5: 16383784.293 ns/op
+
+# Run progress: 92.67% complete, ETA 00:18:24
+# Fork: 1 of 2
+# Warmup Iteration   1: 16919445.161 ns/op
+# Warmup Iteration   2: 15406325.348 ns/op
+# Warmup Iteration   3: 15641739.073 ns/op
+# Warmup Iteration   4: 15267290.591 ns/op
+# Warmup Iteration   5: 15648262.178 ns/op
+Iteration   1: 16196092.772 ns/op
+Iteration   2: 15471208.946 ns/op
+Iteration   3: 15818915.458 ns/op
+Iteration   4: 15405761.740 ns/op
+Iteration   5: 15708837.826 ns/op
+
+# Run progress: 93.33% complete, ETA 00:16:43
+# Fork: 2 of 2
+# Warmup Iteration   1: 18365761.648 ns/op
+# Warmup Iteration   2: 17696981.014 ns/op
+# Warmup Iteration   3: 16939985.953 ns/op
+# Warmup Iteration   4: 16690140.220 ns/op
+# Warmup Iteration   5: 17045061.194 ns/op
+Iteration   1: 16887624.223 ns/op
+Iteration   2: 16913719.514 ns/op
+Iteration   3: 17014684.655 ns/op
+Iteration   4: 17229873.107 ns/op
+Iteration   5: 17085549.344 ns/op
+
+
+Result "com.guidewire.Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount":
+  16373226.758 ±(99.9%) 1097081.031 ns/op [Average]
+  (min, avg, max) = (15405761.740, 16373226.758, 17229873.107), stdev = 725651.175
+  CI (99.9%): [15276145.727, 17470307.790] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount
+# Parameters: (arraySize = 100)
+
+# Run progress: 94.00% complete, ETA 00:15:03
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 2684.359 ns/op
+# Warmup Iteration   2: 2492.969 ns/op
+# Warmup Iteration   3: 2439.360 ns/op
+# Warmup Iteration   4: 2429.907 ns/op
+# Warmup Iteration   5: 2426.561 ns/op
+Iteration   1: 2438.252 ns/op
+Iteration   2: 2436.781 ns/op
+Iteration   3: 2416.599 ns/op
+Iteration   4: 2415.145 ns/op
+Iteration   5: 2451.635 ns/op
+
+# Run progress: 94.67% complete, ETA 00:13:23
+# Fork: 1 of 2
+# Warmup Iteration   1: 2440.487 ns/op
+# Warmup Iteration   2: 2295.738 ns/op
+# Warmup Iteration   3: 2311.691 ns/op
+# Warmup Iteration   4: 2296.485 ns/op
+# Warmup Iteration   5: 2288.898 ns/op
+Iteration   1: 2294.880 ns/op
+Iteration   2: 2287.576 ns/op
+Iteration   3: 2306.720 ns/op
+Iteration   4: 2286.127 ns/op
+Iteration   5: 2341.510 ns/op
+
+# Run progress: 95.33% complete, ETA 00:11:42
+# Fork: 2 of 2
+# Warmup Iteration   1: 2373.834 ns/op
+# Warmup Iteration   2: 2243.887 ns/op
+# Warmup Iteration   3: 2229.688 ns/op
+# Warmup Iteration   4: 2233.845 ns/op
+# Warmup Iteration   5: 2220.443 ns/op
+Iteration   1: 2239.509 ns/op
+Iteration   2: 2238.608 ns/op
+Iteration   3: 2249.640 ns/op
+Iteration   4: 2219.610 ns/op
+Iteration   5: 2241.708 ns/op
+
+
+Result "com.guidewire.Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount":
+  2270.589 ±(99.9%) 58.153 ns/op [Average]
+  (min, avg, max) = (2219.610, 2270.589, 2341.510), stdev = 38.465
+  CI (99.9%): [2212.435, 2328.742] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount
+# Parameters: (arraySize = 10000)
+
+# Run progress: 96.00% complete, ETA 00:10:02
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 420925.697 ns/op
+# Warmup Iteration   2: 398985.438 ns/op
+# Warmup Iteration   3: 401347.595 ns/op
+# Warmup Iteration   4: 400391.118 ns/op
+# Warmup Iteration   5: 397527.348 ns/op
+Iteration   1: 401706.810 ns/op
+Iteration   2: 397100.585 ns/op
+Iteration   3: 396999.969 ns/op
+Iteration   4: 398007.816 ns/op
+Iteration   5: 400877.940 ns/op
+
+# Run progress: 96.67% complete, ETA 00:08:21
+# Fork: 1 of 2
+# Warmup Iteration   1: 472001.437 ns/op
+# Warmup Iteration   2: 442597.920 ns/op
+# Warmup Iteration   3: 441592.250 ns/op
+# Warmup Iteration   4: 443056.903 ns/op
+# Warmup Iteration   5: 443685.414 ns/op
+Iteration   1: 441453.153 ns/op
+Iteration   2: 445775.893 ns/op
+Iteration   3: 445551.157 ns/op
+Iteration   4: 440973.369 ns/op
+Iteration   5: 445148.980 ns/op
+
+# Run progress: 97.33% complete, ETA 00:06:41
+# Fork: 2 of 2
+# Warmup Iteration   1: 430175.357 ns/op
+# Warmup Iteration   2: 408208.980 ns/op
+# Warmup Iteration   3: 408095.744 ns/op
+# Warmup Iteration   4: 409344.564 ns/op
+# Warmup Iteration   5: 408705.171 ns/op
+Iteration   1: 408949.963 ns/op
+Iteration   2: 406667.242 ns/op
+Iteration   3: 408371.477 ns/op
+Iteration   4: 406280.822 ns/op
+Iteration   5: 410260.388 ns/op
+
+
+Result "com.guidewire.Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount":
+  425943.244 ±(99.9%) 28573.668 ns/op [Average]
+  (min, avg, max) = (406280.822, 425943.244, 445775.893), stdev = 18899.712
+  CI (99.9%): [397369.576, 454516.912] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.2, Java HotSpot(TM) 64-Bit Server VM, 11.0.2+9-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.guidewire.Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount
+# Parameters: (arraySize = 100000)
+
+# Run progress: 98.00% complete, ETA 00:05:01
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 11462585.578 ns/op
+# Warmup Iteration   2: 10915638.425 ns/op
+# Warmup Iteration   3: 10930132.884 ns/op
+# Warmup Iteration   4: 10768678.088 ns/op
+# Warmup Iteration   5: 11030099.118 ns/op
+Iteration   1: 10964281.865 ns/op
+Iteration   2: 11218389.143 ns/op
+Iteration   3: 11343012.324 ns/op
+Iteration   4: 11142755.141 ns/op
+Iteration   5: 11080491.957 ns/op
+
+# Run progress: 98.67% complete, ETA 00:03:20
+# Fork: 1 of 2
+# Warmup Iteration   1: 11417820.135 ns/op
+# Warmup Iteration   2: 11074494.386 ns/op
+# Warmup Iteration   3: 10875334.840 ns/op
+# Warmup Iteration   4: 11394661.551 ns/op
+# Warmup Iteration   5: 10735572.481 ns/op
+Iteration   1: 11007777.877 ns/op
+Iteration   2: 10013629.330 ns/op
+Iteration   3: 10127274.820 ns/op
+Iteration   4: 10142786.018 ns/op
+Iteration   5: 10161505.406 ns/op
+
+# Run progress: 99.33% complete, ETA 00:01:40
+# Fork: 2 of 2
+# Warmup Iteration   1: 10909969.790 ns/op
+# Warmup Iteration   2: 10312294.841 ns/op
+# Warmup Iteration   3: 10121151.219 ns/op
+# Warmup Iteration   4: 10141791.863 ns/op
+# Warmup Iteration   5: 10074562.463 ns/op
+Iteration   1: 10098468.544 ns/op
+Iteration   2: 10258131.765 ns/op
+Iteration   3: 10259755.609 ns/op
+Iteration   4: 10062980.261 ns/op
+Iteration   5: 10152805.571 ns/op
+
+
+Result "com.guidewire.Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount":
+  10228511.520 ±(99.9%) 429814.021 ns/op [Average]
+  (min, avg, max) = (10013629.330, 10228511.520, 11007777.877), stdev = 284295.362
+  CI (99.9%): [9798697.499, 10658325.541] (assumes normal distribution)
+
+
+# Run complete. Total time: 04:10:57
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                          (arraySize)  Mode  Cnt         Score         Error  Units
+Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt                        1000  avgt   10       201.224 ±      11.112  ns/op
+Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt                       10000  avgt   10      1877.894 ±      39.557  ns/op
+Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt                       50000  avgt   10      9187.382 ±     138.142  ns/op
+Ex1_SeqSteamVsFor_PrimitiveInt.forLoopMaxSearchInt                      200000  avgt   10     37304.884 ±     502.705  ns/op
+Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt               1000  avgt   10      1671.919 ±      27.994  ns/op
+Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt              10000  avgt   10     16605.152 ±      95.501  ns/op
+Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt              50000  avgt   10     82667.738 ±     802.885  ns/op
+Ex1_SeqSteamVsFor_PrimitiveInt.sequentialStreamMaxSearchInt             200000  avgt   10    327981.086 ±    2824.266  ns/op
+
+Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger                        1000  avgt   10       620.514 ±       6.568  ns/op
+Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger                       10000  avgt   10      6886.221 ±     140.549  ns/op
+Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger                       50000  avgt   10     37289.960 ±     427.615  ns/op
+Ex2_SeqSteamVsFor_BoxedInt.forLoopMaxSearchInteger                      200000  avgt   10    150440.535 ±    2108.840  ns/op
+Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger               1000  avgt   10      3199.096 ±      22.234  ns/op
+Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger              10000  avgt   10     29597.787 ±     292.972  ns/op
+Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger              50000  avgt   10    143899.027 ±     800.916  ns/op
+Ex2_SeqSteamVsFor_BoxedInt.sequentialStreamMaxSearchInteger             200000  avgt   10    533558.051 ±  132823.580  ns/op
+
+Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU                           1000  avgt   10     85470.658 ±     539.449  ns/op
+Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU                           5000  avgt   10    437541.427 ±    2936.167  ns/op
+Ex3_SeqSteamVsFor_Intensive.forLoopMaxSearchCPU                          10000  avgt   10    882905.314 ±    9544.320  ns/op
+Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU                  1000  avgt   10     90406.918 ±    4826.343  ns/op
+Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU                  5000  avgt   10    479498.661 ±    3068.772  ns/op
+Ex3_SeqSteamVsFor_Intensive.sequentialStreamMaxSearchCPU                 10000  avgt   10    963950.085 ±    7063.407  ns/op
+
+Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU              1000  avgt   10     48556.389 ±     907.063  ns/op
+Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU              5000  avgt   10    112158.536 ±    4718.444  ns/op
+Ex4_SeqVsParallelStream_Stateless.parallelStreamMaxSearchCPU             10000  avgt   10    194566.619 ±   12555.109  ns/op
+Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU            1000  avgt   10     93307.065 ±    1300.356  ns/op
+Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU            5000  avgt   10    482124.057 ±    3038.397  ns/op
+Ex4_SeqVsParallelStream_Stateless.sequentialStreamMaxSearchCPU           10000  avgt   10    968727.942 ±    7223.071  ns/op
+
+Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearch                     100  avgt   10     37877.399 ±    1842.213  ns/op
+Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearch                    1000  avgt   10     34944.764 ±     818.239  ns/op
+Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearch                   10000  avgt   10     45977.978 ±     513.547  ns/op
+Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearch                  100000  avgt   10    169102.918 ±    6043.064  ns/op
+Ex5_SeqVsParallelStream_Simple.parallelStreamMaxSearch                  500000  avgt   10    487561.763 ±   68429.981  ns/op
+Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearch                   100  avgt   10       333.646 ±       3.681  ns/op
+Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearch                  1000  avgt   10      2814.168 ±     609.469  ns/op
+Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearch                 10000  avgt   10     31246.515 ±    2733.896  ns/op
+Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearch                100000  avgt   10    278756.780 ±    4853.702  ns/op
+Ex5_SeqVsParallelStream_Simple.sequentialStreamMaxSearch                500000  avgt   10   1729026.817 ±   26233.076  ns/op
+
+Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList         10000  avgt   10     44065.008 ±     627.429  ns/op
+Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList         50000  avgt   10     82031.128 ±   28170.636  ns/op
+Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxArrayList        100000  avgt   10    156809.621 ±   11354.064  ns/op
+Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList        10000  avgt   10     34335.205 ±     304.498  ns/op
+Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList        50000  avgt   10    155543.899 ±    2463.111  ns/op
+Ex6_ParallelStream_LinkedAndArrayList.parallelStreamMaxLinkedList       100000  avgt   10    324341.178 ±    5387.397  ns/op
+
+Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount               100  avgt   10     38927.847 ±     910.803  ns/op
+Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount             10000  avgt   10    722611.586 ±   17351.977  ns/op
+Ex7_SeqVsParallelStream_Stateful.parallelStreamDistinctCount            100000  avgt   10  16373226.758 ± 1097081.031  ns/op
+Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount             100  avgt   10      2270.589 ±      58.153  ns/op
+Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount           10000  avgt   10    425943.244 ±   28573.668  ns/op
+Ex7_SeqVsParallelStream_Stateful.sequentialStreamDistinctCount          100000  avgt   10  10228511.520 ±  429814.021  ns/op
